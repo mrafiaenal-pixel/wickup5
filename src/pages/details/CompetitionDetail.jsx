@@ -7,12 +7,12 @@ const competitionDetailsData = {
   basket: {
     icon: "🏀",
     title: "Regulasi Wikrama Fest 5",
-    subtitle: "Basketball Championship Tahun 2025",
+    subtitle: "Basketball Championship Tahun 2026",
     kategori: "Murid putra SMP sederajat",
     waktuTempat: {
-      pendaftaran: "19 September – 3 Oktober 2026",
+      pendaftaran: "13 September – 3 Oktober 2026",
       technicalMeeting: "3 Oktober 2026 (13.00 s.d 14.30 WIB)",
-      pelaksanaan: "22, 23 dan 29 Oktober 2026 (07.30 - selesai)",
+      pelaksanaan: "10,11,17,18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
@@ -161,6 +161,11 @@ const competitionDetailsData = {
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
+
+
+  // MENYANYI SOLO
+
+
   "menyanyi-solo": {
     icon: "🎤",
     title: "Regulasi Wikrama Fest 5",
@@ -224,6 +229,11 @@ const competitionDetailsData = {
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
+
+
+  // CERDAS CERMAT
+
+
   "cerdas-cermat": {
     icon: "🧠",
     title: "Regulasi Wikrama Fest 5",
@@ -285,6 +295,12 @@ const competitionDetailsData = {
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
+
+
+  // TENIS MEJA
+
+
+
   "tenis-meja": {
     icon: "🏓",
     title: "Regulasi Wikrama Fest 5",
