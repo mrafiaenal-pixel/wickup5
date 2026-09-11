@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const competitions = [
-  { slug: "basket", name: "Basket", description: "5 cabang sudah fix.", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf5ApVLMORQ1lkBOekNI-82ZT0lc66GXibAGBU0_mJatFK-5Q/viewform?usp=pp_url&entry.0=basket" },
-  { slug: "menyanyi-solo", name: "Menyanyi Solo", description: "Tunjukkan kemampuan vokal terbaikmu.", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf5ApVLMORQ1lkBOekNI-82ZT0lc66GXibAGBU0_mJatFK-5Q/viewform?usp=pp_url&entry.0=menyanyi-solo" },
-  { slug: "cerdas-cermat", name: "Cerdas Cermat Literasi Numerasi", description: "Uji kemampuan literasi dan numerasimu.", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf5ApVLMORQ1lkBOekNI-82ZT0lc66GXibAGBU0_mJatFK-5Q/viewform?usp=pp_url&entry.0=cerdas-cermat-literasi-numerasi" },
-  { slug: "tenis-meja", name: "Tenis Meja", description: "Bertanding dengan sportif dan penuh semangat.", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf5ApVLMORQ1lkBOekNI-82ZT0lc66GXibAGBU0_mJatFK-5Q/viewform?usp=pp_url&entry.0=tenis-meja" },
-  { slug: "voli", name: "Voli", description: "Tunjukkan kerja sama tim terbaikmu.", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSf5ApVLMORQ1lkBOekNI-82ZT0lc66GXibAGBU0_mJatFK-5Q/viewform?usp=pp_url&entry.0=voli" },
+  { slug: "basket", name: "Basket", description: "5 cabang sudah fix.", formUrl: "https://forms.gle/3EMwPSN8VnyVQscy6 " },
+  { slug: "menyanyi-solo", name: "Menyanyi Solo", description: "Tunjukkan kemampuan vokal terbaikmu.", formUrl: "https://forms.gle/3EMwPSN8VnyVQscy6 " },
+  { slug: "cerdas-cermat", name: "Cerdas Cermat Literasi Numerasi", description: "Uji kemampuan literasi dan numerasimu.", formUrl: "https://forms.gle/3EMwPSN8VnyVQscy6 " },
+  { slug: "tenis-meja", name: "Tenis Meja", description: "Bertanding dengan sportif dan penuh semangat.", formUrl: "https://forms.gle/3EMwPSN8VnyVQscy6 " },
+  { slug: "voli", name: "Voli", description: "Tunjukkan kerja sama tim terbaikmu.", formUrl: "https://forms.gle/3EMwPSN8VnyVQscy6 " },
 ];
 
 function Kompetisi() {
