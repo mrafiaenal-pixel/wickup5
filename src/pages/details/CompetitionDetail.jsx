@@ -500,7 +500,7 @@ function CompetitionDetail() {
           ← Kembali ke Kompetisi
         </Link>
 
-        <div className="regulation-wrapper">
+        <div className="regulation-wrapper ">
           {/* Header / Hero Regulasi */}
           <div className="regulasi-header">
             <span className="badge-kategori">{details.icon} Kategori: {details.kategori}</span>
