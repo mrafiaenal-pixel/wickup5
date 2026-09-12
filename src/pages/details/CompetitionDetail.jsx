@@ -6,7 +6,7 @@ import { competitions } from "../Kompetisi.jsx";
 const competitionDetailsData = {
   basket: {
     icon: "🏀",
-    title: "Regulasi Wikrama Fest 5",
+    title: "Regulasi Wikrama Cup 5",
     subtitle: "Basketball Championship Tahun 2026",
     kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
@@ -32,7 +32,7 @@ const competitionDetailsData = {
         title: "PERSYARATAN UMUM",
         items: [
           "Sudah membayar uang pendaftaran sebesar Rp. 600.000/tim",
-          "Pada saat Technical Meeting, setiap tim harus sudah melengkapi persyaratan kejuaraan Wikrama Fest.",
+          "Pada saat Technical Meeting, setiap tim harus sudah melengkapi persyaratan kejuaraan Wikrama Cup.",
           "Surat rekomendasi dari sekolah masing-masing (bertanda tangan kepala sekolah dan berstempel sekolah asli). (Dibawa saat Technical Meeting)",
           "Mengisi formulir pendaftaran.",
           "FC Raport semester terakhir (sesuai tingkatan) / FC Kartu Pelajar.",
@@ -45,11 +45,11 @@ const competitionDetailsData = {
         items: [
           "Keputusan panitia tidak dapat diganggu gugat.",
           "Panitia berhak menginterprestasikan peraturan sesuai persepsi panitia.",
-          "Semua peserta Wikrama Fest 5 WAJIB mengikuti semua proses acara dan rangkaian kegiatan.",
+          "Semua peserta Wikrama Cup 5 WAJIB mengikuti semua proses acara dan rangkaian kegiatan.",
           "Semua peserta WAJIB mengikuti protokol kesehatan yang sudah ditentukan.",
-          "Peserta diutamakan adalah kelas 8-9 siswa SMP sederajat tahun ajaran 2025-2026 dengan telah memenuhi persyaratan yang ditetapkan oleh panitia Wikrama Fest.",
+          "Peserta diutamakan adalah kelas 8-9 siswa SMP sederajat tahun ajaran 2025-2026 dengan telah memenuhi persyaratan yang ditetapkan oleh panitia Wikrama Cup.",
           "Semua tim WAJIB mengikuti pembukaan minimal diwakili 5 orang/tim. (Denda Rp 50.000/tim jika kurang).",
-          "Perwakilan tim WAJIB hadir saat Technical Meeting... Jika tidak hadir, maka peserta dianggap telah memahami dan menyetujui seluruh peraturan Wikrama Fest 4",
+          "Perwakilan tim WAJIB hadir saat Technical Meeting... Jika tidak hadir, maka peserta dianggap telah memahami dan menyetujui seluruh peraturan Wikrama Cup 5",
           "Peraturan permainan yang digunakan adalah peraturan FIBA 2024.",
           "Semua Peserta WAJIB menggunakan ID CARD selama berada dilingkungan SMK Wikrama.",
           "Official, pelatih, dan guru pendamping WAJIB menggunakan pakaian rapih.",
@@ -60,7 +60,7 @@ const competitionDetailsData = {
         title: "PERATURAN KHUSUS",
         items: [
           "Setiap tim maksimal 12 pemain dan 3 official.",
-          "Sistem pertandingan yang digunakan pada Wikrama Fest adalah sistem gugur.",
+          "Sistem pertandingan yang digunakan pada Wikrama Cup adalah sistem gugur.",
           "Waktu Tanding (Penyisihan-Semifinal): 4x10 menit (kotor), 2 menit terakhir Q4 waktu bersih.",
           "Waktu Tanding (Final): 4x10 menit (semibersih), 2 menit terakhir Q4 waktu bersih.",
           "Istirahat: 1 menit (antar Q1-Q2 & Q3-Q4) dan 2 menit (jeda babak).",
@@ -115,7 +115,7 @@ const competitionDetailsData = {
         code: "K",
         title: "PROTES",
         items: [
-          "Protes dapat diajukan secara tertulis, maks 30 menit setelah laga, kepada pengawas pertandingan/panitia Wikrama Fest dengan uang jaminan Rp 1.000.000,- (uang hangus).",
+          "Protes dapat diajukan secara tertulis, maks 30 menit setelah laga, kepada pengawas pertandingan/panitia Wikrama Cup dengan uang jaminan Rp 1.000.000,- (uang hangus).",
           "Pengaduan diselesaikan oleh panitia hakim.",
         ],
       },
@@ -123,7 +123,7 @@ const competitionDetailsData = {
         code: "L",
         title: "SANKSI DENDA",
         items: [
-          "Tim yang WO (tidak hadir) harus membayar denda Rp 100.000,-/pertandingan dan akan di-blacklist di Wikrama Fest berikutnya.",
+          "Tim yang WO (tidak hadir) harus membayar denda Rp 100.000,-/pertandingan dan akan di-blacklist di Wikrama Cup berikutnya.",
         ],
       },
       {
@@ -157,13 +157,14 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
+      { nama: "Kayla (PJ Basket)", wa: "0831-7969-2009", link: "https://wa.me/6283179692009" },
       { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
   "menyanyi-solo": {
     icon: "🎤",
-    title: "Regulasi Wikrama Fest 5",
+    title: "Regulasi Wikrama Cup 5",
     subtitle: "Lomba Menyanyi Solo Tahun 2026",
     kategori: "Siswa / Siswi SMP sederajat",
     waktuTempat: {
@@ -220,13 +221,14 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
+      { nama: "Shofia (PJ Menyanyi Solo)", wa: "0856-9240-6601", link: "https://wa.me/6285692406601" },
+      { nama: "Gracia (PJ Menyanyi Solo)", wa: "0895-1743-7132", link: "https://wa.me/6289517437132" },
       { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
-      { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
   "cerdas-cermat": {
     icon: "🧠",
-    title: "Regulasi Wikrama Fest 5",
+    title: "Regulasi Wikrama Cup 5",
     subtitle: "Cerdas Cermat Literasi & Numerasi Tahun 2026",
     kategori: "Tim Murid SMP sederajat (3 Orang / Tim)",
     waktuTempat: {
@@ -281,13 +283,14 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
+      { nama: "Faiz (PJ Cerdas Cermat)", wa: "0877-2108-4547", link: "https://wa.me/6287721084547" },
       { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
   "tenis-meja": {
     icon: "🏓",
-    title: "Regulasi Wikrama Fest 5",
+    title: "Regulasi Wikrama Cup 5",
     subtitle: "Kejuaraan Tenis Meja Tahun 2026",
     kategori: "Murid Putra / Putri SMP sederajat",
     waktuTempat: {
@@ -331,9 +334,10 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
-      { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
+      { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
+      { nama: "Zelita (PJ Tenis Meja)", wa: "0857-7269-0892", link: "https://wa.me/6285772690892" },
       { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
@@ -341,7 +345,7 @@ const competitionDetailsData = {
   voli: {
     icon: "🏐",
     title: "Regulasi Lomba Voli Antar SMP Se-Bogor Raya",
-    subtitle: "Wikrama Fest 2026",
+    subtitle: "Wikrama Cup 2026",
     kategori: "Tim Putra / Putri SMP / sederajat wilayah Bogor Raya",
     waktuTempat: {
       pendaftaran: "13 November – 1 Oktober 2026",
@@ -378,7 +382,7 @@ const competitionDetailsData = {
         title: "PERATURAN UMUM",
         items: [
           "Keputusan panitia tidak dapat diganggu gugat dan panitia berhak menginterpretasikan peraturan sesuai persepsi panitia.",
-          "Semua peserta Wikrama Fest wajib mengikuti seluruh proses acara, rangkaian kegiatan, upacara pembukaan, serta protokol kesehatan yang ditentukan.",
+          "Semua peserta Wikrama Cup wajib mengikuti seluruh proses acara, rangkaian kegiatan, upacara pembukaan, serta protokol kesehatan yang ditentukan.",
           "Official, pelatih, dan guru pendamping wajib menggunakan pakaian rapi.",
         ],
       },
@@ -416,7 +420,6 @@ const competitionDetailsData = {
     ],
   }
 };
-
 
 // Default fallback generator jika ada cabang lomba baru di kemudian hari
 function getDefaultDetails(competition) {
