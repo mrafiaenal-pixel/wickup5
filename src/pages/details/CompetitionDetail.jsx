@@ -8,11 +8,11 @@ const competitionDetailsData = {
     icon: "🏀",
     title: "Regulasi Wikrama Fest 5",
     subtitle: "Basketball Championship Tahun 2026",
-    kategori: "Murid putra SMP sederajat",
+    kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
       pendaftaran: "13 September – 3 Oktober 2026",
       technicalMeeting: "3 Oktober 2026 (13.00 s.d 14.30 WIB)",
-      pelaksanaan: "10,11,17,18 Oktober 2026 (07.30 - selesai)",
+      pelaksanaan: "10, 11, 17 dan 18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
@@ -157,15 +157,10 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Satria", wa: "0831-2843-1096", link: "https://wa.me/6283128431096" },
+      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
-
-
-  // MENYANYI SOLO
-
-
   "menyanyi-solo": {
     icon: "🎤",
     title: "Regulasi Wikrama Fest 5",
@@ -225,15 +220,10 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Satria", wa: "0831-2843-1096", link: "https://wa.me/6283128431096" },
+      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
-
-
-  // CERDAS CERMAT
-
-
   "cerdas-cermat": {
     icon: "🧠",
     title: "Regulasi Wikrama Fest 5",
@@ -291,16 +281,10 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Satria", wa: "0831-2843-1096", link: "https://wa.me/6283128431096" },
+      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
-
-
-  // TENIS MEJA
-
-
-
   "tenis-meja": {
     icon: "🏓",
     title: "Regulasi Wikrama Fest 5",
@@ -350,52 +334,75 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Satria", wa: "0831-2843-1096", link: "https://wa.me/6283128431096" },
+      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
   voli: {
     icon: "🏐",
-    title: "Regulasi Wikrama Fest 5",
-    subtitle: "Volley Ball Championship Tahun 2026",
-    kategori: "Tim Putra / Putri SMP sederajat",
+    title: "Regulasi Lomba Voli Antar SMP Se-Bogor Raya",
+    subtitle: "Wikrama Fest 2026",
+    kategori: "Tim Putra / Putri SMP / sederajat wilayah Bogor Raya",
     waktuTempat: {
-      pendaftaran: "8 November – 20 November 2025",
-      technicalMeeting: "21 November 2025 (13.30 s.d 15.30 WIB)",
-      pelaksanaan: "22, 23 dan 29 November 2026 (07.30 - selesai)",
-      tempat: "Lapangan Voli SMK Wikrama Bogor",
+      pendaftaran: "13 November – 1 Oktober 2026",
+      technicalMeeting: "1 Oktober 2026",
+      pelaksanaan: "3, 4 Oktober 2026",
+      tempat: "Lapangan SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
-      nominal: "Rp. 400.000,00 / tim",
+      nominal: "Rp. 250.000,00 / tim",
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
     penghargaan: [
-      { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.250.000,00" },
-      { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 850.000,00" },
-      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 500.000,00" },
+      { juara: "Juara I", hadiah: "Uang pembinaan Rp 1.000.000,00 dan sertifikat" },
+      { juara: "Juara II", hadiah: "Uang pembinaan Rp 750.000,00 dan sertifikat" },
+      { juara: "Juara III Bersama", hadiah: "Uang pembinaan Rp 500.000,00 dan sertifikat" },
     ],
     sections: [
       {
         code: "A",
-        title: "PERSYARATAN TIM",
+        title: "KATEGORI & PERSYARATAN PESERTA",
         items: [
-          "Maksimal 12 pemain dan 2 official per tim.",
-          "Membayar uang pendaftaran Rp 400.000,- per tim.",
-          "Membawa surat rekomendasi sekolah berstempel asli.",
-          "Mengisi formulir pendaftaran & melampirkan FC Kartu Pelajar seluruh anggota tim.",
+          "Peserta merupakan siswa aktif tingkat SMP/sederajat di wilayah Bogor Raya (diutamakan kelas 8-9 tahun ajaran 2025-2026).",
+          "Satu sekolah maksimal mengirimkan 12 orang pemain pada masing-masing nomor.",
+          "Wajib membawa kartu pelajar atau identitas sekolah apabila diperlukan.",
+          "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BJB (a.n. Mohamad Rizal, No. Rek: 0149257144100).",
+          "Mengisi formulir pendaftaran dan melampirkan surat rekomendasi dari sekolah (bertanda tangan kepala sekolah & berstempel asli) serta FC Rapor semester terakhir / Kartu Pelajar yang di-upload saat pendaftaran.",
+          "Setiap tim harus sudah melengkapi seluruh persyaratan pada saat Technical Meeting.",
         ],
       },
       {
         code: "B",
-        title: "PERATURAN PERTANDINGAN",
+        title: "PERATURAN UMUM",
         items: [
-          "Menggunakan peraturan permainan PBVSI / FIVB terbaru.",
-          "Sistem gugur (Two Winning Sets 25 Rally Point; Set ke-3 15 Rally Point).",
-          "Setiap tim wajib mengenakan kostum seragam bertuliskan nomor punggung.",
-          "Toleransi keterlambatan 10 menit dari jadwal pertandingan.",
-          "Keputusan wasit bersifat mutlak.",
+          "Keputusan panitia tidak dapat diganggu gugat dan panitia berhak menginterpretasikan peraturan sesuai persepsi panitia.",
+          "Semua peserta Wikrama Fest wajib mengikuti seluruh proses acara, rangkaian kegiatan, upacara pembukaan, serta protokol kesehatan yang ditentukan.",
+          "Official, pelatih, dan guru pendamping wajib menggunakan pakaian rapi.",
+        ],
+      },
+      {
+        code: "C",
+        title: "PERATURAN KHUSUS / PERTANDINGAN",
+        items: [
+          "Peraturan permainan yang digunakan adalah peraturan PBVSI.",
+          "Babak penyisihan menggunakan sistem pool di mana setiap peserta akan bertanding melawan seluruh peserta dalam pool tersebut, dan peserta dengan hasil terbaik melaju ke babak selanjutnya.",
+          "Babak selanjutnya menggunakan sistem gugur yang ditentukan panitia berdasarkan jumlah peserta.",
+          "Sistem pool dan gugur menggunakan sistem 2 winning sets (3 set), sedangkan babak final menggunakan sistem 3 winning sets (5 set).",
+          "Setiap game/set dimainkan hingga mencapai 25 poin (jika skor 24–24, pertandingan dilanjutkan hingga salah satu tim unggul 2 poin).",
+          "Setiap tim wajib hadir minimal 15 menit sebelum pertandingan dimulai.",
+          "Tim yang dipanggil sebanyak 3 kali dan tidak hadir dapat dinyatakan WO (Walk Over).",
+          "Peserta wajib menjunjung tinggi sportivitas selama pertandingan.",
+        ],
+      },
+      {
+        code: "D",
+        title: "WASIT DAN KOORDINASI",
+        items: [
+          "Pertandingan dipimpin oleh wasit yang ditentukan oleh panitia (PBVSI Kota Bogor).",
+          "Keputusan wasit selama pertandingan bersifat mengikat dan peserta wajib menghormati keputusan wasit serta panitia.",
+          "Protes dapat disampaikan dengan cara yang sopan kepada panitia sesuai ketentuan yang berlaku.",
         ],
       },
     ],
@@ -404,11 +411,12 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Satria", wa: "0831-2843-1096", link: "https://wa.me/6283128431096" },
+      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
-  },
+  }
 };
+
 
 // Default fallback generator jika ada cabang lomba baru di kemudian hari
 function getDefaultDetails(competition) {
