@@ -120,17 +120,18 @@ function Home() {
         .hero-content {
           z-index: 2;
           position: relative;
-          padding: 20px;
+          padding: 10px;
         }
 
         .hero-logo {
-          width: 150px;
-          margin-bottom: 20px;
+          width: 400px;
+          height: auto;
+          margin-bottom: 10px;
           filter: drop-shadow(0 0 15px rgba(248, 187, 40, 0.5));
         }
 
         .hero-title {
-          font-size: 4.5rem;
+          font-size: 7rem;
           font-weight: 900;
           margin-bottom: 15px;
           color: #f8bb28; /* Warna Kuning (Aksen) */
@@ -168,38 +169,63 @@ function Home() {
           box-shadow: 0 12px 35px rgba(248, 187, 40, 0.6);
         }
 
-        @media (max-width: 768px) {
-          .hero-title {
-            font-size: 3rem;
-          }
-          .hero-subtitle {
-            font-size: 1.3rem;
-          }
-          .hero-button {
-            padding: 12px 30px;
-            font-size: 1.1rem;
-          }
-          .hero-logo {
-            width: 120px;
-          }
-          .hero-decoration-top-right,
-          .hero-decoration-bottom-left {
-              width: 100px;
-          }
-          .hero-decoration-basketball {
-              width: 70px;
-              top: 30px;
-              left: 30px;
-          }
-          .hero-decoration-microphone {
-              width: 60px;
-              bottom: 30px;
-              right: 30px;
-          }
-          .hero-geometric-shapes {
-              width: 70px;
-          }
+            @media (max-width: 768px) {
+        .hero-section {
+          min-height: calc(100vh - 74px);
+          padding: 50px 20px 20px 20px;
+          box-sizing: border-box;
         }
+
+        .hero-content {
+          padding: 10px;
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        .hero-logo {
+          width: 160px;
+          height: auto;
+          margin-bottom: 20px;
+        }
+
+        .hero-title {
+          font-size: 3rem;
+          line-height: 1.05;
+          margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+          font-size: 1.3rem;
+          line-height: 1.5;
+          max-width: 350px;
+        }
+
+        .hero-button {
+          padding: 12px 30px;
+          font-size: 1.1rem;
+        }
+
+        .hero-decoration-top-right,
+        .hero-decoration-bottom-left {
+          width: 100px;
+        }
+
+        .hero-decoration-basketball {
+          width: 70px;
+          top: 30px;
+          left: 30px;
+        }
+
+        .hero-decoration-microphone {
+          width: 60px;
+          bottom: 30px;
+          right: 30px;
+        }
+
+        .hero-geometric-shapes {
+          width: 70px;
+        }
+      }
 
         /* --- Maps Section --- */
         .maps-section {

@@ -13,6 +13,8 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
 }
 main {
   display: block;
@@ -22,7 +24,6 @@ img, iframe, video {
   height: auto;
 }
 /* --- Akhir Resets --- */
-
 
 .navbar {
   background: #000000;
