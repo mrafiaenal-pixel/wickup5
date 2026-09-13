@@ -1,6 +1,4 @@
-/* --- CSS UNTUK NAVBAR (KOTAK KECIL MOBILE) --- */
-
-/* Global layout resets */
+/* === GLOBAL RESETS === */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -13,8 +11,10 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   font-family: "Inter", sans-serif;
-   font-optical-sizing: auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background: #060e24;
+  color: #ffffff;
 }
 main {
   display: block;
@@ -23,20 +23,23 @@ img, iframe, video {
   max-width: 100%;
   height: auto;
 }
-/* --- Akhir Resets --- */
+/* === Akhir Global Resets === */
 
 .navbar {
-  background: #000000;
-  height: 74px;
+  background: rgba(6, 14, 36, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 2px solid #f5931c;
-  box-shadow: 0 4px 15px rgba(245, 147, 28, 0.2);
+  border-bottom: 1px solid rgba(248, 187, 40, 0.22);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
 }
 
 .navbar-container {

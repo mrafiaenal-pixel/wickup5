@@ -619,14 +619,25 @@ function CompetitionDetail() {
       </div>
 
       <style>{`
+        @keyframes detailGradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
         .detail-section {
-          min-height: calc(100vh - 74px);
-          padding: 110px 20px 80px;
-          background: linear-gradient(-45deg, #223165, #000, #1a254f, #000);
+          min-height: calc(100vh - 70px);
+          padding: 100px 20px 80px;
+          background: linear-gradient(-45deg, #060e24, #0a1230, #091545, #060e24);
           background-size: 400% 400%;
+          animation: detailGradient 18s ease infinite;
           color: #f0f0f0;
           display: flex;
           justify-content: center;
+          position: relative;
+        }
+        .detail-section::before {
+          content: '';
+          position: absolute; inset: 0;
+          background-image: linear-gradient(rgba(248,187,40,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(248,187,40,0.03) 1px,transparent 1px);
+          background-size: 60px 60px;
+          pointer-events: none;
         }
 
         .detail-container {
@@ -635,16 +646,25 @@ function CompetitionDetail() {
         }
 
         .back-button {
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
           color: #f8bb28;
           text-decoration: none;
           font-weight: 700;
-          font-size: 1rem;
-          margin-bottom: 24px;
-          transition: transform 0.2s ease;
+          font-size: 0.95rem;
+          margin-bottom: 28px;
+          transition: all 0.3s ease;
+          border: 1px solid rgba(248,187,40,0.3);
+          padding: 9px 20px;
+          border-radius: 50px;
+          background: rgba(248,187,40,0.06);
+          backdrop-filter: blur(10px);
         }
 
         .back-button:hover {
+          background: rgba(248,187,40,0.15);
+          border-color: #f8bb28;
           transform: translateX(-4px);
         }
 
