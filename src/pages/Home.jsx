@@ -103,31 +103,6 @@ function Home() {
         </div>
       </section>
 
-      {/* STATS */}
-      <section className="stats-bar" ref={statsRef}>
-        <div className="stats-container">
-          <div className="stat-counter-item">
-            <span className="stat-number">{c1}<span className="stat-plus">+</span></span>
-            <span className="stat-label">Tim Peserta</span>
-          </div>
-          <div className="stat-divider" />
-          <div className="stat-counter-item">
-            <span className="stat-number">{c2}</span>
-            <span className="stat-label">Cabang Lomba</span>
-          </div>
-          <div className="stat-divider" />
-          <div className="stat-counter-item">
-            <span className="stat-number">{c3}<span className="stat-plus">+</span></span>
-            <span className="stat-label">Juri Profesional</span>
-          </div>
-          <div className="stat-divider" />
-          <div className="stat-counter-item">
-            <span className="stat-number">{c4}<span className="stat-plus">+</span></span>
-            <span className="stat-label">Juta Hadiah</span>
-          </div>
-        </div>
-      </section>
-
       {/* VALUES */}
       <section className="values-section">
         <div className="values-inner">
@@ -138,10 +113,10 @@ function Home() {
           </div>
           <div className="values-grid">
             {[
-              { icon:'🏆', title:'Sportivitas', desc:'Bersaing dengan sehat dan menjunjung tinggi nilai sportivitas di setiap pertandingan.', color:'#f8bb28' },
-              { icon:'🤝', title:'Kebersamaan', desc:'Mempererat tali persaudaraan dan jaringan antar pelajar se-Bogor Raya.', color:'#f5931c' },
-              { icon:'⭐', title:'Prestasi', desc:'Wujudkan mimpi dan raih pengalaman berharga bersama para atlet muda berbakat.', color:'#f8bb28' },
-              { icon:'🛡️', title:'Integritas', desc:'Menjaga kejujuran dan integritas sebagai fondasi setiap kompetisi yang digelar.', color:'#f5931c' },
+              { icon: '🏆', title: 'Sportivitas', desc: 'Bersaing dengan sehat dan menjunjung tinggi nilai sportivitas di setiap pertandingan.', color: '#f8bb28' },
+              { icon: '🤝', title: 'Kebersamaan', desc: 'Mempererat tali persaudaraan dan jaringan antar pelajar se-Bogor Raya.', color: '#f5931c' },
+              { icon: '⭐', title: 'Prestasi', desc: 'Wujudkan mimpi dan raih pengalaman berharga bersama para atlet muda berbakat.', color: '#f8bb28' },
+              { icon: '🛡️', title: 'Integritas', desc: 'Menjaga kejujuran dan integritas sebagai fondasi setiap kompetisi yang digelar.', color: '#f5931c' },
             ].map((v, i) => (
               <div className="value-card" key={i} style={{ '--accent': v.color, animationDelay: `${i * 0.12}s` }}>
                 <div className="value-card-icon">{v.icon}</div>
@@ -163,11 +138,11 @@ function Home() {
           </div>
           <div className="comp-pills">
             {[
-              { emoji:'🏀', label:'Basket', slug:'basket' },
-              { emoji:'🏐', label:'Voli', slug:'voli' },
-              { emoji:'🏓', label:'Tenis Meja', slug:'tenis-meja' },
-              { emoji:'🎤', label:'Menyanyi Solo', slug:'menyanyi-solo' },
-              { emoji:'🧠', label:'Cerdas Cermat', slug:'cerdas-cermat' },
+              { emoji: '🏀', label: 'Basket', slug: 'basket' },
+              { emoji: '🏐', label: 'Voli', slug: 'voli' },
+              { emoji: '🏓', label: 'Tenis Meja', slug: 'tenis-meja' },
+              { emoji: '🎤', label: 'Menyanyi Solo', slug: 'menyanyi-solo' },
+              { emoji: '🧠', label: 'Cerdas Cermat', slug: 'cerdas-cermat' },
             ].map((c) => (
               <Link to={`/kompetisi/${c.slug}`} className="comp-pill" key={c.slug}>
                 <span className="comp-pill-emoji">{c.emoji}</span>
