@@ -10,8 +10,8 @@ const competitionDetailsData = {
     subtitle: "Basketball Championship Tahun 2026",
     kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
-      pendaftaran: "13 September – 3 Oktober 2026",
-      technicalMeeting: "3 Oktober 2026 (13.00 s.d 14.30 WIB)",
+      pendaftaran: "13 September – 1 Oktober 2026",
+      technicalMeeting: "1 Oktober 2026 (13.00 s.d 14.30 WIB)",
       pelaksanaan: "10, 11, 17 dan 18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
@@ -24,7 +24,7 @@ const competitionDetailsData = {
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.500.000,00" },
       { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
-      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 500.000,00" },
+      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 600.000,00" },
     ],
     sections: [
       {
@@ -47,7 +47,7 @@ const competitionDetailsData = {
           "Panitia berhak menginterprestasikan peraturan sesuai persepsi panitia.",
           "Semua peserta Wikrama Cup 5 WAJIB mengikuti semua proses acara dan rangkaian kegiatan.",
           "Semua peserta WAJIB mengikuti protokol kesehatan yang sudah ditentukan.",
-          "Peserta diutamakan adalah kelas 8-9 siswa SMP sederajat tahun ajaran 2025-2026 dengan telah memenuhi persyaratan yang ditetapkan oleh panitia Wikrama Cup.",
+          "Peserta diutamakan adalah kelas 8-9 siswa SMP sederajat tahun ajaran 2026-2027 dengan telah memenuhi persyaratan yang ditetapkan oleh panitia Wikrama Cup.",
           "Semua tim WAJIB mengikuti pembukaan minimal diwakili 5 orang/tim. (Denda Rp 50.000/tim jika kurang).",
           "Perwakilan tim WAJIB hadir saat Technical Meeting... Jika tidak hadir, maka peserta dianggap telah memahami dan menyetujui seluruh peraturan Wikrama Cup 5",
           "Peraturan permainan yang digunakan adalah peraturan FIBA 2024.",
@@ -70,7 +70,7 @@ const competitionDetailsData = {
           "Setiap tim WAJIB memainkan seluruh pemain minimal 4 menit (dari Q1-Q3). Pelatih akan dikenai Technical Foul per jumlah pemain yang melanggar. Hukuman akan dilaksanakan pada awal quarter keempat (Q4).",
           "Tim harus daftar ulang 30 menit sebelum jadwal tanding.",
           "Panitia hanya memberikan P3K, penanganan lanjutan dibebankan kepada tim.",
-          "Juara 1 dan 2 tahun 2024 akan menempati posisi atas dan bawah bagan.",
+          "Juara 1 dan 2 tahun 2025 akan menempati posisi atas dan bawah bagan.",
         ],
       },
       {
@@ -294,10 +294,10 @@ const competitionDetailsData = {
     subtitle: "Kejuaraan Tenis Meja Tahun 2026",
     kategori: "Murid Putra / Putri SMP sederajat",
     waktuTempat: {
-      pendaftaran: "8 November – 20 November 2025",
-      technicalMeeting: "21 November 2025 (13.30 s.d 15.30 WIB)",
-      pelaksanaan: "22, 23 & 29 November 2026 (07.30 - selesai)",
-      tempat: "Hall Olahraga SMK Wikrama Bogor",
+      pendaftaran: "13 September – 1 Oktober 2026",
+      technicalMeeting: "Oktober 2026 (13.00 s.d 14.30 WIB)",
+      pelaksanaan: "3 - 4 Oktober 2026 (07.30 - selesai)",
+      tempat: "Balai Krida SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
       nominal: "Rp. 150.000,00 / peserta",
