@@ -213,8 +213,8 @@ function Home() {
         .ring-2 { width:900px; height:900px; border-color:rgba(245,147,28,0.06); animation:ringRotateRev 40s linear infinite; }
         .hero-lightning-tr { position:absolute; top:0; right:0; width:200px; height:200px; z-index:1; pointer-events:none; filter:drop-shadow(0 0 12px rgba(248,187,40,0.6)); }
         .hero-lightning-bl { position:absolute; bottom:0; left:0; width:200px; height:200px; z-index:1; pointer-events:none; filter:drop-shadow(0 0 12px rgba(248,187,40,0.6)); }
-        .hero-decoration-basketball { position:absolute; bottom:-40px; left:-50px; width:320px; z-index:2; filter:drop-shadow(0 25px 50px rgba(0,0,0,0.6)) drop-shadow(0 0 30px rgba(245,147,28,0.2)); animation:floatBasketball 5.5s ease-in-out infinite; }
-        .hero-decoration-microphone { position:absolute; top:10%; right:-15px; width:250px; z-index:2; filter:drop-shadow(0 25px 50px rgba(0,0,0,0.6)) drop-shadow(0 0 20px rgba(248,187,40,0.15)); animation:floatMic 6.5s ease-in-out infinite; }
+        .hero-decoration-basketball { position:absolute; top:10%; right:-15px; width:250px; z-index:2; filter:drop-shadow(0 25px 50px rgba(0,0,0,0.6)) drop-shadow(0 0 20px rgba(248,187,40,0.15)); animation:floatMic 6.5s ease-in-out infinite; }
+        .hero-decoration-microphone { position:absolute; bottom:-40px; left:-50px; width:320px; z-index:2; filter:drop-shadow(0 25px 50px rgba(0,0,0,0.6)) drop-shadow(0 0 30px rgba(245,147,28,0.2)); animation:floatBasketball 5.5s ease-in-out infinite; }
         .hero-glow-bg { position:absolute; top:50%; left:50%; width:800px; height:800px; background:radial-gradient(circle,rgba(248,187,40,0.1) 0%,transparent 60%); animation:pulseGlow 5s ease-in-out infinite; z-index:0; pointer-events:none; }
         .hero-particles { position:absolute; inset:0; z-index:1; overflow:hidden; pointer-events:none; }
         .particle { position:absolute; border-radius:50%; background:radial-gradient(circle,#f8bb28 0%,rgba(248,187,40,0) 70%); animation-name:floatParticle; animation-timing-function:ease-in-out; animation-iteration-count:infinite; }
