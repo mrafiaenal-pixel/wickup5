@@ -153,7 +153,7 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
-      { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
+      { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Basket FIX.docx" },
     ],
     kontak: [
       { nama: "Kayla (PJ Basket)", wa: "0831-7969-2009", link: "https://wa.me/6283179692009" },
@@ -221,7 +221,7 @@ const competitionDetailsData = {
     kontak: [
       { nama: "Shofia (PJ Menyanyi Solo)", wa: "0856-9240-6601", link: "https://wa.me/6285692406601" },
       { nama: "Gracia (PJ Menyanyi Solo)", wa: "0895-1743-7132", link: "https://wa.me/6289517437132" },
-      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
+      { nama: "Elvia Roza, S.Pd.	", wa: "0813-1749-5607", link: "https://wa.me/6281317495607" },
     ],
   },
   "cerdas-cermat": {
@@ -281,8 +281,8 @@ const competitionDetailsData = {
     ],
     kontak: [
       { nama: "Faiz (PJ Cerdas Cermat)", wa: "0877-2108-4547", link: "https://wa.me/6287721084547" },
-      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
-      { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
+      { nama: "Dede Hermansyah, S.Pd.", wa: "0856-0437-9531", link: "https://wa.me/6285604379531" },
+      { nama: "Ria Rosia Cahyawati, S.Pd.", wa: "0858-1026-6449", link: "https://wa.me/6285810266449" },
     ],
   },
   "tenis-meja": {
@@ -330,7 +330,8 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
-      { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
+      { title: "Surat Rekomendasi", url: "/Rekomendasi-Turnamen-Tenis-Meja.pdf" },
+      { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Tenis Meja FIX.docx" },
     ],
     kontak: [
       { nama: "Zelita (PJ Tenis Meja)", wa: "0857-7269-0892", link: "https://wa.me/6285772690892" },
@@ -406,7 +407,7 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
-      { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
+      { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Voli FIX.docx" },
     ],
     kontak: [
       { nama: "Widi Rizki Pratama Kahar", wa: "0851-5057-8165", link: "https://wa.me/6285150578165" },

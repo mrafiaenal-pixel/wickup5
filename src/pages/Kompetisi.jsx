@@ -67,7 +67,13 @@ function Kompetisi() {
             <span className="dl-icon">📄</span> Undangan Resmi
           </a>
           <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
-            <span className="dl-icon">📝</span> Formulir Pendaftaran
+            <span className="dl-icon">📝</span> Formulir Pendaftaran Basket
+          </a>
+            <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
+            <span className="dl-icon">📝</span> Formulir Pendaftaran Voli
+          </a>
+            <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
+            <span className="dl-icon">📝</span> Formulir Pendaftaran Tenis Meja
           </a>
         </div>
       </div>
