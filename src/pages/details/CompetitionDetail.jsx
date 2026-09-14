@@ -6,12 +6,11 @@ import { competitions } from "../Kompetisi.jsx";
 const competitionDetailsData = {
   basket: {
     icon: "🏀",
-    title: "Regulasi Wikrama Cup 5",
-    subtitle: "Basketball Championship Tahun 2026",
+    title: "Regulasi Turnamen Basket Antar SMP Se-Bogor Raya",
     kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
       pendaftaran: "13 September – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026 (13.00 s.d 14.30 WIB)",
+      technicalMeeting: "1 Oktober 2026 (Online)(13.00 s.d 14.30 WIB)",
       pelaksanaan: "10, 11, 17 dan 18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
@@ -28,19 +27,19 @@ const competitionDetailsData = {
     ],
     sections: [
       {
-        code: "E",
+        code: "A",
         title: "PERSYARATAN UMUM",
         items: [
           "Sudah membayar uang pendaftaran sebesar Rp. 600.000/tim",
           "Pada saat Technical Meeting, setiap tim harus sudah melengkapi persyaratan kejuaraan Wikrama Cup.",
-          "Surat rekomendasi dari sekolah masing-masing (bertanda tangan kepala sekolah dan berstempel sekolah asli). (Dibawa saat Technical Meeting)",
+          "Surat rekomendasi dari sekolah masing-masing (bertanda tangan kepala sekolah dan berstempel sekolah asli).",
           "Mengisi formulir pendaftaran.",
           "FC Raport semester terakhir (sesuai tingkatan) / FC Kartu Pelajar.",
-          "Pas Foto 3x4 dua buah (satu untuk ID Card dan satu untuk formulir). (Diserahkan ketika TM)",
+          "Pas Foto 3x4 dua buah (satu untuk ID Card dan satu untuk formulir).",
         ],
       },
       {
-        code: "F",
+        code: "B",
         title: "PERATURAN UMUM",
         items: [
           "Keputusan panitia tidak dapat diganggu gugat.",
@@ -56,7 +55,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "G",
+        code: "C",
         title: "PERATURAN KHUSUS",
         items: [
           "Setiap tim maksimal 12 pemain dan 3 official.",
@@ -74,7 +73,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "H",
+        code: "D",
         title: "SERAGAM DAN TATA TERTIB LAPANGAN",
         items: [
           "Setiap tim wajib membawa bola masing-masing untuk pemanasan.",
@@ -91,7 +90,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "I",
+        code: "E",
         title: "WASIT DAN KOORDINATOR WASIT",
         items: [
           "Wasit ditugaskan oleh pengcab PERBASI Kota Bogor.",
@@ -101,7 +100,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "J",
+        code: "F",
         title: "GANGGUAN",
         items: [
           "Gangguan di Q1: Pertandingan dan skor diulang.",
@@ -112,7 +111,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "K",
+        code: "G",
         title: "PROTES",
         items: [
           "Protes dapat diajukan secara tertulis, maks 30 menit setelah laga, kepada pengawas pertandingan/panitia Wikrama Cup dengan uang jaminan Rp 1.000.000,- (uang hangus).",
@@ -120,14 +119,14 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "L",
+        code: "H",
         title: "SANKSI DENDA",
         items: [
           "Tim yang WO (tidak hadir) harus membayar denda Rp 100.000,-/pertandingan dan akan di-blacklist di Wikrama Cup berikutnya.",
         ],
       },
       {
-        code: "M",
+        code: "I",
         title: "SANKSI PEMBUAT ONAR DAN PEMOGOKAN",
         items: [
           "Tim yang berbuat onar dikenakan sanksi diskualifikasi dan denda Rp 1.000.000,-.",
@@ -135,7 +134,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "N",
+        code: "J",
         title: "SANKSI PELAKU PENGANIAYAAN DAN PERKELAHIAN",
         items: [
           "Jika seorang pemain melakukan penganiayaan (pemain lawan/wasit), pemain dikeluarkan.",
@@ -145,7 +144,7 @@ const competitionDetailsData = {
         ],
       },
       {
-        code: "O",
+        code: "K",
         title: "HAL-HAL LAIN",
         items: [
           "Segala sesuatu yang belum tercantum akan diatur saat Technical Meeting.",
@@ -158,23 +157,22 @@ const competitionDetailsData = {
     ],
     kontak: [
       { nama: "Kayla (PJ Basket)", wa: "0831-7969-2009", link: "https://wa.me/6283179692009" },
-      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
       { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
     ],
   },
+
   "menyanyi-solo": {
     icon: "🎤",
-    title: "Regulasi Wikrama Cup 5",
-    subtitle: "Lomba Menyanyi Solo Tahun 2026",
+    title: "Regulasi Lomba menyanyi solo Antar SMP Se-Bogor Raya",
     kategori: "Siswa / Siswi SMP sederajat",
     waktuTempat: {
-      pendaftaran: "8 November – 20 November 2025",
-      technicalMeeting: "21 November 2025 (13.30 s.d 15.30 WIB)",
-      pelaksanaan: "22 & 23 November 2026 (08.00 WIB - selesai)",
+      pendaftaran: "13 september – 1 Oktober 2026",
+      technicalMeeting: "1 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
+      pelaksanaan: "18 Oktober 2026 (08.00 WIB - selesai)",
       tempat: "Gedung Utama SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
-      nominal: "Rp. 150.000,00 / peserta",
+      nominal: "Rp. 75.000,00 / peserta",
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
@@ -190,9 +188,9 @@ const competitionDetailsData = {
         title: "PERSYARATAN PESERTA",
         items: [
           "Peserta adalah siswa/i aktif SMP/MTs sederajat se-Bogor Raya.",
-          "Membayar uang pendaftaran sebesar Rp 150.000,- per peserta.",
+          "Membayar uang pendaftaran sebesar Rp 75.000,- per peserta.",
           "Mengisi formulir pendaftaran dan melampirkan fotokopi Kartu Pelajar.",
-          "Menyerahkan pas foto 3x4 sebanyak 2 lembar saat Technical Meeting.",
+          "Menyerahkan pas foto 3x4 sebanyak 2 lembar.",
         ],
       },
       {
@@ -228,17 +226,16 @@ const competitionDetailsData = {
   },
   "cerdas-cermat": {
     icon: "🧠",
-    title: "Regulasi Wikrama Cup 5",
-    subtitle: "Cerdas Cermat Literasi & Numerasi Tahun 2026",
+    title: "Regulasi Lomba Cerdas Cermat Antar SMP Se-Bogor Raya",
     kategori: "Tim Murid SMP sederajat (3 Orang / Tim)",
     waktuTempat: {
-      pendaftaran: "8 November – 20 November 2025",
-      technicalMeeting: "21 November 2025 (13.30 s.d 15.30 WIB)",
-      pelaksanaan: "22 & 23 November 2026 (08.00 WIB - selesai)",
+      pendaftaran: "13 September – 1 Oktober 2026",
+      technicalMeeting: "1 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
+      pelaksanaan: "17-18 Oktober 2026 (08.00 WIB - selesai)",
       tempat: "Ruang Multimedia SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
-      nominal: "Rp. 200.000,00 / tim",
+      nominal: "Rp. 300.000,00 / tim",
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
@@ -254,8 +251,8 @@ const competitionDetailsData = {
         title: "PERSYARATAN TIM",
         items: [
           "Setiap tim terdiri dari 3 orang siswa/i aktif dari sekolah yang sama.",
-          "Membayar biaya pendaftaran sebesar Rp 200.000,- per tim.",
-          "Membawa surat rekomendasi resmi dari sekolah asal.",
+          "Membayar biaya pendaftaran sebesar Rp 300.000,- per tim.",
+          "Menyerahkan surat rekomendasi resmi dari sekolah asal.",
           "Melampirkan fotokopi Kartu Pelajar masing-masing anggota tim.",
         ],
       },
@@ -290,12 +287,11 @@ const competitionDetailsData = {
   },
   "tenis-meja": {
     icon: "🏓",
-    title: "Regulasi Wikrama Cup 5",
-    subtitle: "Kejuaraan Tenis Meja Tahun 2026",
-    kategori: "Murid Putra / Putri SMP sederajat",
+    title: "Regulasi Turnamen Tenis Meja Antar SMP Se-Bogor Raya",
+    kategori: "Tunggal  Putra / Putri SMP sederajat",
     waktuTempat: {
       pendaftaran: "13 September – 1 Oktober 2026",
-      technicalMeeting: "Oktober 2026 (13.00 s.d 14.30 WIB)",
+      technicalMeeting: "Oktober 2026 (Online)(13.00 s.d 14.30 WIB)",
       pelaksanaan: "3 - 4 Oktober 2026 (07.30 - selesai)",
       tempat: "Balai Krida SMK Wikrama Bogor",
     },
@@ -317,7 +313,7 @@ const competitionDetailsData = {
         items: [
           "Peserta adalah murid aktif kelas 7-9 SMP/MTs sederajat.",
           "Sudah membayar biaya pendaftaran Rp 150.000/peserta.",
-          "Membawa surat rekomendasi sekolah dan FC Kartu Pelajar saat TM.",
+          "Menyerahkan surat rekomendasi sekolah dan FC Kartu Pelajar.",
         ],
       },
       {
@@ -338,18 +334,16 @@ const competitionDetailsData = {
     ],
     kontak: [
       { nama: "Zelita (PJ Tenis Meja)", wa: "0857-7269-0892", link: "https://wa.me/6285772690892" },
-      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
-      { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
+      { nama: "Feri Firmansyah, S.Pd.", wa: "0856-7264-884", link: "https://wa.me/628567264884" },
     ],
   },
   voli: {
     icon: "🏐",
-    title: "Regulasi Lomba Voli Antar SMP Se-Bogor Raya",
-    subtitle: "Wikrama Cup 2026",
-    kategori: "Tim Putra / Putri SMP / sederajat wilayah Bogor Raya",
+    title: "Regulasi Turnamen Voli Antar SMP Se-Bogor Raya",
+    kategori:  "Murid putra SMP sederajat",
     waktuTempat: {
-      pendaftaran: "13 November – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026",
+      pendaftaran: "13 September – 1 Oktober 2026",
+      technicalMeeting: "1 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
       pelaksanaan: "3, 4 Oktober 2026",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
@@ -360,16 +354,16 @@ const competitionDetailsData = {
       rekening: "0149257144100",
     },
     penghargaan: [
-      { juara: "Juara I", hadiah: "Uang pembinaan Rp 1.000.000,00 dan sertifikat" },
-      { juara: "Juara II", hadiah: "Uang pembinaan Rp 750.000,00 dan sertifikat" },
-      { juara: "Juara III Bersama", hadiah: "Uang pembinaan Rp 500.000,00 dan sertifikat" },
+      { juara: "Juara 1", hadiah: "Uang pembinaan Rp 1.000.000,00 dan sertifikat" },
+      { juara: "Juara 2", hadiah: "Uang pembinaan Rp 750.000,00 dan sertifikat" },
+      { juara: "Juara 3 ", hadiah: "Uang pembinaan Rp 500.000,00 dan sertifikat" },
     ],
     sections: [
       {
         code: "A",
         title: "KATEGORI & PERSYARATAN PESERTA",
         items: [
-          "Peserta merupakan siswa aktif tingkat SMP/sederajat di wilayah Bogor Raya (diutamakan kelas 8-9 tahun ajaran 2025-2026).",
+          "Peserta merupakan siswa aktif tingkat SMP/sederajat di wilayah Bogor Raya (diutamakan kelas 8-9 tahun ajaran 2026-2027).",
           "Satu sekolah maksimal mengirimkan 12 orang pemain pada masing-masing nomor.",
           "Wajib membawa kartu pelajar atau identitas sekolah apabila diperlukan.",
           "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BJB (a.n. Mohamad Rizal, No. Rek: 0149257144100).",
@@ -415,8 +409,8 @@ const competitionDetailsData = {
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
-      { nama: "Samuel Sayogo", wa: "0856-9226-5055", link: "https://wa.me/6285692265055" },
-      { nama: "Noer Sandy M. S.Pd", wa: "0899-7972-996", link: "https://wa.me/628997972996" },
+      { nama: "Widi Rizki Pratama Kahar", wa: "0851-5057-8165", link: "https://wa.me/6285150578165" },
+      { nama: "Laila Timoranti, S.Pd.", wa: "0851-7231-5150", link: "https://wa.me/6285172315150" },
     ],
   }
 };
@@ -430,7 +424,7 @@ function getDefaultDetails(competition) {
     kategori: "Murid SMP sederajat",
     waktuTempat: {
       pendaftaran: "8 November – 20 November 2025",
-      technicalMeeting: "21 November 2025 (13.30 s.d 15.30 WIB)",
+      technicalMeeting: "21 November 2025 (Online)(13.30 s.d 15.30 WIB)",
       pelaksanaan: "22, 23 dan 29 November 2026 (07.30 - selesai)",
       tempat: "Area SMK Wikrama Bogor",
     },

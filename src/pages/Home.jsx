@@ -8,11 +8,7 @@ import { Link } from "react-router-dom";
 
 import GoogleMap from "../components/GoogleMap";
 
-function useCounter(
-  end,
-  duration,
-  startAnim
-) {
+function useCounter(end, duration, startAnim) {
   const [count, setCount] = React.useState(0);
 
   React.useEffect(() => {
@@ -227,15 +223,7 @@ function Home() {
               : ""
           }`}
         >
-          <div className="hero-badge">
-            <span className="hero-badge-dot" />
-
-            <span>
-              WIKRAMA CUP 5
-              &nbsp;·&nbsp;
-              2026
-            </span>
-          </div>
+         
 
           <img
             src="/logo-wikcup.png"
@@ -243,16 +231,20 @@ function Home() {
             className="hero-logo"
           />
 
+          {/* ========================= */}
+          {/* JUDUL HERO */}
+          {/* ========================= */}
+
           <h1 className="hero-title">
             <span className="hero-title-white">
               WIKRAMA
             </span>
 
             <span className="hero-title-yellow">
-              CUP
+              CUP 5 
 
               <em className="hero-year">
-                2026
+                 2026
               </em>
             </span>
           </h1>
@@ -532,9 +524,7 @@ function Home() {
             </div>
 
             <a
-              href="
-                https://www.google.com/maps/dir/?api=1&destination=-6.645191993349406%2C106.84130407499401
-              "
+              href="https://www.google.com/maps/dir/?api=1&destination=-6.645191993349406%2C106.84130407499401"
               target="_blank"
               rel="noopener noreferrer"
               className="route-card-button"
@@ -1240,6 +1230,8 @@ function Home() {
 
         .hero-year {
           font-style:normal;
+
+          padding-left:10px;
 
           color:#f5931c;
 
