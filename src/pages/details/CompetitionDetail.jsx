@@ -20,6 +20,11 @@ const competitionDetailsData = {
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
+    kuota: {
+      putra: "12 tim",
+      putri: "12 tim",
+      total: "24 tim",
+    },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.500.000,00" },
       { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
@@ -341,7 +346,7 @@ const competitionDetailsData = {
   voli: {
     icon: "🏐",
     title: "Regulasi Turnamen Voli Antar SMP Se-Bogor Raya",
-    kategori:  "Murid putra SMP sederajat",
+    kategori: "Murid putra SMP sederajat",
     waktuTempat: {
       pendaftaran: "13 September – 1 Oktober 2026",
       technicalMeeting: "1 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
@@ -529,6 +534,18 @@ function CompetitionDetail() {
                 <p><strong>No. Rek:</strong> <code className="rek-code">{details.biayaPendaftaran.rekening}</code></p>
               </div>
             </div>
+
+            {details.kuota && (
+              <div className="highlight-card">
+                <div className="card-icon">👥</div>
+                <h3>Kuota Peserta</h3>
+                <ul>
+                  <li><strong>Putra:</strong> {details.kuota.putra}</li>
+                  <li><strong>Putri:</strong> {details.kuota.putri}</li>
+                  <li><strong>Total:</strong> {details.kuota.total}</li>
+                </ul>
+              </div>
+            )}
 
             <div className="highlight-card">
               <div className="card-icon">🏆</div>
