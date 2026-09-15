@@ -248,7 +248,7 @@ const competitionDetailsData = {
       tempat: "Ruang Multimedia SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
-      nominal: "Rp. 300.000,00 / tim",
+      nominal: "Rp. 200.000,00 / tim",
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
@@ -258,9 +258,9 @@ const competitionDetailsData = {
       details: [{ label: "Tim", count: 20 }],
     },
     penghargaan: [
-      { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
-      { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 750.000,00" },
-      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 500.000,00" },
+      { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 500.000,00" },
+      { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 350.000,00" },
+      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 200.000,00" },
     ],
     sections: [
       {

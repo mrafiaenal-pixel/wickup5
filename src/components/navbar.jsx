@@ -53,7 +53,7 @@ function Navbar() {
               {/* Tombol Daftar Sekarang */}
               <li className="nav-item nav-button-item">
                 <a
-                  href="/kompetisi"
+                  href="https://forms.gle/KCjH33E1U8Hh4D229"
                   className="nav-link nav-button"
                   onClick={closeMobileMenu}
                 >

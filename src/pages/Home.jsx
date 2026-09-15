@@ -485,21 +485,21 @@ function Home() {
 
           {/* MAP EMBED */}
 
-          <div className="map-container">
-            <iframe
-              title="Lokasi SMK Wikrama Bogor"
-              src="https://www.google.com/maps?q=SMK+Wikrama+Bogor&output=embed"
-              width="100%"
-              height="100%"
-              style={{
-                border: 0,
-                display: "block",
-              }}
-              loading="lazy"
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
+       <div className="map-container">
+  <iframe
+    title="Lokasi SMK Wikrama Bogor"
+    src="https://www.google.com/maps?q=-6.645191993349406,106.84130407499401&output=embed"
+    width="100%"
+    height="100%"
+    style={{
+      border: 0,
+      display: "block",
+    }}
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
 
           {/* ROUTE CARD */}
 
