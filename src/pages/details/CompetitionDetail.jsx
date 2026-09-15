@@ -387,7 +387,7 @@ const competitionDetailsData = {
         items: [
           "Peraturan permainan yang digunakan adalah peraturan PBVSI.",
           "Babak penyisihan menggunakan sistem pool di mana setiap peserta akan bertanding melawan seluruh peserta dalam pool tersebut, dan peserta dengan hasil terbaik melaju ke babak selanjutnya.",
-          "Babak selanjutnya menggunakan sistem gugur yang ditentukan panitia berdasarkan jumlah peserta.",
+          "Babak selanjutnya menggunakan sistem gugur yang ditentukan panitia berdasarkan jumlah tim.",
           "Sistem pool dan gugur menggunakan sistem 2 winning sets (3 set), sedangkan babak final menggunakan sistem 3 winning sets (5 set).",
           "Setiap game/set dimainkan hingga mencapai 25 poin (jika skor 24–24, pertandingan dilanjutkan hingga salah satu tim unggul 2 poin).",
           "Setiap tim wajib hadir minimal 15 menit sebelum pertandingan dimulai.",
