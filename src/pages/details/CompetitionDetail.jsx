@@ -277,9 +277,11 @@ const competitionDetailsData = {
         code: "B",
         title: "TAHAPAN PERTANDINGAN",
         items: [
-          "Babak Penyisihan: Ujian tertulis / sistem berbasis komputer untuk menentukan peringkat 8 besar.",
-          "Babak Semifinal: Babak wajib jawab dan babak lemparan antar tim.",
-          "Babak Final: Babak wajib jawab, lemparan, dan babak rebutan cepat tepat.",
+          "Babak Penyisihan: Ujian tertulis / sistem berbasis komputer untuk menentukan peringkat 3 besar.",
+          "Babak Final terdiri atas tiga sesi:",
+          "1. Pengumpulan Poin: Peserta mengerjakan 10 soal dengan nilai 10–50 poin sesuai tingkat kesulitan soal.",
+          "2. Soal Rebutan: Peserta menjawab soal melalui sistem secara cepat. Jawaban benar mendapat 15 poin, sedangkan jawaban salah mendapat 0 poin tanpa pengurangan nilai. Soal yang tidak terjawab dengan benar dapat dilempar kepada lawan.",
+          "3. Poin Spekulasi: Peserta menentukan jumlah poin yang akan dipertaruhkan melalui sistem sebelum menjawab soal. Jawaban benar menambah poin sesuai jumlah yang dipertaruhkan, sedangkan jawaban salah mengurangi poin sebesar jumlah yang dipertaruhkan.",
         ],
       },
       {
