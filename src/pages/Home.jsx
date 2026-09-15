@@ -6,8 +6,6 @@
 
 import { Link } from "react-router-dom";
 
-import GoogleMap from "../components/GoogleMap";
-
 function useCounter(end, duration, startAnim) {
   const [count, setCount] = React.useState(0);
 
@@ -223,7 +221,6 @@ function Home() {
               : ""
           }`}
         >
-         
 
           <img
             src="/logo-wikcup.png"
@@ -231,20 +228,16 @@ function Home() {
             className="hero-logo"
           />
 
-          {/* ========================= */}
-          {/* JUDUL HERO */}
-          {/* ========================= */}
-
           <h1 className="hero-title">
             <span className="hero-title-white">
               WIKRAMA
             </span>
 
             <span className="hero-title-yellow">
-              CUP 5 
+              CUP 5
 
               <em className="hero-year">
-                 2026
+                2026
               </em>
             </span>
           </h1>
@@ -490,10 +483,22 @@ function Home() {
             </p>
           </div>
 
-          {/* MAP */}
+          {/* MAP EMBED */}
 
           <div className="map-container">
-            <GoogleMap />
+            <iframe
+              title="Lokasi SMK Wikrama Bogor"
+              src="https://www.google.com/maps?q=SMK+Wikrama+Bogor&output=embed"
+              width="100%"
+              height="100%"
+              style={{
+                border: 0,
+                display: "block",
+              }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
 
           {/* ROUTE CARD */}
@@ -774,10 +779,6 @@ function Home() {
           }
         }
 
-        /* ========================= */
-        /* HERO */
-        /* ========================= */
-
         .hero-section {
           background:
             radial-gradient(
@@ -815,52 +816,41 @@ function Home() {
 
         .aurora-layer {
           position:absolute;
-
           border-radius:50%;
-
           filter:blur(90px);
-
           pointer-events:none;
-
           animation:
             auroraShift
             ease-in-out
             infinite;
-
           z-index:0;
         }
 
         .aurora-1 {
           width:700px;
           height:500px;
-
           background:
             radial-gradient(
               circle,
               rgba(21,37,128,0.55) 0%,
               transparent 70%
             );
-
           top:-100px;
           left:-150px;
-
           animation-duration:14s;
         }
 
         .aurora-2 {
           width:600px;
           height:450px;
-
           background:
             radial-gradient(
               circle,
               rgba(248,187,40,0.1) 0%,
               transparent 65%
             );
-
           top:30%;
           right:-100px;
-
           animation-duration:18s;
           animation-delay:-4s;
         }
@@ -868,17 +858,14 @@ function Home() {
         .aurora-3 {
           width:500px;
           height:400px;
-
           background:
             radial-gradient(
               circle,
               rgba(15,60,180,0.4) 0%,
               transparent 60%
             );
-
           bottom:-80px;
           left:30%;
-
           animation-duration:22s;
           animation-delay:-8s;
         }
@@ -908,10 +895,8 @@ function Home() {
 
         .hero-scanline {
           position:absolute;
-
           left:0;
           right:0;
-
           height:2px;
 
           background:
@@ -934,15 +919,12 @@ function Home() {
 
         .hero-ring {
           position:absolute;
-
           border-radius:50%;
-
           border:
             1px solid
             rgba(248,187,40,0.1);
 
           pointer-events:none;
-
           top:50%;
           left:50%;
         }
@@ -950,7 +932,6 @@ function Home() {
         .ring-1 {
           width:600px;
           height:600px;
-
           animation:
             ringRotate
             25s
@@ -961,7 +942,6 @@ function Home() {
         .ring-2 {
           width:900px;
           height:900px;
-
           border-color:
             rgba(245,147,28,0.06);
 
@@ -975,12 +955,9 @@ function Home() {
         .hero-lightning-tr,
         .hero-lightning-bl {
           position:absolute;
-
           width:200px;
           height:200px;
-
           z-index:1;
-
           pointer-events:none;
 
           filter:
@@ -1002,12 +979,9 @@ function Home() {
 
         .hero-decoration-basketball {
           position:absolute;
-
           top:10%;
           right:-15px;
-
           width:250px;
-
           z-index:2;
 
           filter:
@@ -1025,12 +999,9 @@ function Home() {
 
         .hero-decoration-microphone {
           position:absolute;
-
           bottom:-40px;
           left:-50px;
-
           width:320px;
-
           z-index:2;
 
           filter:
@@ -1048,10 +1019,8 @@ function Home() {
 
         .hero-glow-bg {
           position:absolute;
-
           top:50%;
           left:50%;
-
           width:800px;
           height:800px;
 
@@ -1075,17 +1044,13 @@ function Home() {
         .hero-particles {
           position:absolute;
           inset:0;
-
           z-index:1;
-
           overflow:hidden;
-
           pointer-events:none;
         }
 
         .particle {
           position:absolute;
-
           border-radius:50%;
 
           background:
@@ -1124,56 +1089,8 @@ function Home() {
             forwards;
         }
 
-        .hero-badge {
-          display:inline-flex;
-          align-items:center;
-          gap:8px;
-
-          background:
-            rgba(248,187,40,0.1);
-
-          border:
-            1px solid
-            rgba(248,187,40,0.4);
-
-          color:#f8bb28;
-
-          padding:6px 20px;
-
-          border-radius:50px;
-
-          font-size:0.8rem;
-          font-weight:700;
-
-          letter-spacing:2px;
-
-          margin-bottom:20px;
-
-          animation:
-            badgePulse
-            2.5s
-            ease
-            infinite;
-        }
-
-        .hero-badge-dot {
-          width:7px;
-          height:7px;
-
-          border-radius:50%;
-
-          background:#f8bb28;
-
-          animation:
-            dotPulse
-            1.5s
-            ease
-            infinite;
-        }
-
         .hero-logo {
           width:130px;
-
           margin-bottom:12px;
 
           filter:
@@ -1205,7 +1122,6 @@ function Home() {
             18px;
 
           line-height:0.95;
-
           letter-spacing:-3px;
 
           display:flex;
@@ -1230,15 +1146,10 @@ function Home() {
 
         .hero-year {
           font-style:normal;
-
           padding-left:10px;
-
           color:#f5931c;
-
           font-size:0.7em;
-
           vertical-align:super;
-
           margin-left:6px;
         }
 
@@ -1256,17 +1167,13 @@ function Home() {
             8px;
 
           line-height:1.6;
-
           max-width:600px;
-
           color:#d0daf5;
         }
 
         .hero-tagline {
           font-size:0.95rem;
-
           font-style:italic;
-
           color:#8898c0;
 
           margin:
@@ -1277,19 +1184,14 @@ function Home() {
 
         .hero-cta-group {
           display:flex;
-
           gap:14px;
-
           flex-wrap:wrap;
-
           justify-content:center;
-
           margin-bottom:40px;
         }
 
         .hero-button {
           display:inline-flex;
-
           align-items:center;
           justify-content:center;
 
@@ -1298,13 +1200,9 @@ function Home() {
             34px;
 
           border-radius:50px;
-
           font-size:1rem;
-
           font-weight:700;
-
           cursor:pointer;
-
           text-decoration:none;
 
           transition:
@@ -1342,7 +1240,6 @@ function Home() {
 
         .hero-button--outline {
           background:transparent;
-
           color:#f8bb28;
 
           border:
@@ -1375,15 +1272,12 @@ function Home() {
             rgba(248,187,40,0.5);
 
           border-radius:12px;
-
           position:relative;
         }
 
         .scroll-wheel::after {
           content:'';
-
           position:absolute;
-
           top:6px;
           left:50%;
 
@@ -1394,7 +1288,6 @@ function Home() {
           height:8px;
 
           border-radius:2px;
-
           background:#f8bb28;
 
           animation:
@@ -1403,10 +1296,6 @@ function Home() {
             ease-in-out
             infinite;
         }
-
-        /* ========================= */
-        /* SECTIONS */
-        /* ========================= */
 
         .values-section {
           background:
@@ -1435,15 +1324,10 @@ function Home() {
 
         .section-eyebrow {
           display:inline-block;
-
           font-size:0.78rem;
-
           font-weight:700;
-
           letter-spacing:3px;
-
           text-transform:uppercase;
-
           color:#f5931c;
 
           border:
@@ -1455,7 +1339,6 @@ function Home() {
             16px;
 
           border-radius:50px;
-
           margin-bottom:16px;
         }
 
@@ -1479,22 +1362,16 @@ function Home() {
 
         .section-desc {
           font-size:1.05rem;
-
           color:#7a8bac;
-
           max-width:500px;
-
           margin:0 auto;
-
           line-height:1.7;
         }
 
         .values-grid {
           display:grid;
-
           grid-template-columns:
             repeat(4,1fr);
-
           gap:20px;
         }
 
@@ -1513,9 +1390,7 @@ function Home() {
             24px;
 
           text-align:center;
-
           position:relative;
-
           overflow:hidden;
 
           animation:
@@ -1544,9 +1419,7 @@ function Home() {
 
         .value-card-icon {
           font-size:2rem;
-
           margin-bottom:16px;
-
           display:block;
 
           transition:
@@ -1562,7 +1435,6 @@ function Home() {
 
         .value-card h3 {
           color:#ffffff;
-
           font-size:1.1rem;
 
           margin:
@@ -1573,23 +1445,17 @@ function Home() {
 
         .value-card p {
           color:#7a8bac;
-
           font-size:0.88rem;
-
           line-height:1.65;
-
           margin:0;
         }
 
         .value-card-glow {
           position:absolute;
-
           top:-60%;
           left:50%;
-
           width:200px;
           height:200px;
-
           border-radius:50%;
 
           background:
@@ -1628,21 +1494,15 @@ function Home() {
 
         .comp-pills {
           display:flex;
-
           flex-wrap:wrap;
-
           gap:14px;
-
           justify-content:center;
-
           margin-bottom:48px;
         }
 
         .comp-pill {
           display:inline-flex;
-
           align-items:center;
-
           gap:10px;
 
           background:
@@ -1659,11 +1519,8 @@ function Home() {
             24px;
 
           border-radius:50px;
-
           font-size:0.95rem;
-
           font-weight:600;
-
           text-decoration:none;
 
           transition:
@@ -1672,7 +1529,6 @@ function Home() {
 
         .comp-pill:hover {
           border-color:#f8bb28;
-
           color:#f8bb28;
 
           transform:
@@ -1704,10 +1560,6 @@ function Home() {
           text-align:center;
         }
 
-        /* ========================= */
-        /* MAP */
-        /* ========================= */
-
         .maps-section {
           background:
             linear-gradient(
@@ -1726,11 +1578,9 @@ function Home() {
 
         .map-container {
           max-width:960px;
-
           margin:0 auto;
 
           border-radius:20px;
-
           overflow:hidden;
 
           box-shadow:
@@ -1738,7 +1588,6 @@ function Home() {
             rgba(0,0,0,0.6);
 
           aspect-ratio:16/9;
-
           min-height:420px;
 
           border:
@@ -1746,13 +1595,15 @@ function Home() {
             rgba(248,187,40,0.2);
 
           position:relative;
-
           background:#111827;
         }
 
-        /* ========================= */
-        /* ROUTE CARD */
-        /* ========================= */
+        .map-container iframe {
+          display:block;
+          width:100%;
+          height:100%;
+          border:0;
+        }
 
         .route-card {
           max-width:960px;
@@ -1767,9 +1618,7 @@ function Home() {
             24px;
 
           display:flex;
-
           align-items:center;
-
           gap:18px;
 
           background:
@@ -1796,11 +1645,9 @@ function Home() {
         .route-card-icon {
           width:52px;
           height:52px;
-
           flex-shrink:0;
 
           display:flex;
-
           align-items:center;
           justify-content:center;
 
@@ -1812,7 +1659,6 @@ function Home() {
             );
 
           border-radius:15px;
-
           font-size:24px;
 
           box-shadow:
@@ -1826,15 +1672,10 @@ function Home() {
 
         .route-card-eyebrow {
           display:block;
-
           color:#f8bb28;
-
           font-size:10px;
-
           font-weight:800;
-
           letter-spacing:2px;
-
           margin-bottom:5px;
         }
 
@@ -1845,19 +1686,14 @@ function Home() {
             5px;
 
           color:white;
-
           font-size:18px;
-
           font-weight:800;
         }
 
         .route-card-content p {
           margin:0;
-
           color:#8190ae;
-
           font-size:13px;
-
           line-height:1.5;
         }
 
@@ -1865,11 +1701,8 @@ function Home() {
           flex-shrink:0;
 
           display:inline-flex;
-
           align-items:center;
-
           justify-content:center;
-
           gap:9px;
 
           padding:
@@ -1884,13 +1717,9 @@ function Home() {
             );
 
           color:#111827;
-
           text-decoration:none;
-
           border-radius:50px;
-
           font-size:13px;
-
           font-weight:800;
 
           transition:
@@ -1912,10 +1741,6 @@ function Home() {
         .route-card-button span:last-child {
           font-size:16px;
         }
-
-        /* ========================= */
-        /* RESPONSIVE */
-        /* ========================= */
 
         @media (max-width:1000px) {
           .values-grid {
@@ -1959,9 +1784,7 @@ function Home() {
 
           .values-grid {
             grid-template-columns:1fr;
-
             max-width:420px;
-
             margin:0 auto;
           }
 
@@ -1975,15 +1798,12 @@ function Home() {
 
           .hero-cta-group {
             flex-direction:column;
-
             align-items:center;
           }
 
           .route-card {
             flex-wrap:wrap;
-
             align-items:flex-start;
-
             padding:18px;
           }
 
@@ -2021,9 +1841,7 @@ function Home() {
 
           .map-container {
             min-height:350px;
-
             aspect-ratio:auto;
-
             border-radius:16px;
           }
         }
