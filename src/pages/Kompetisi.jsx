@@ -63,16 +63,16 @@ function Kompetisi() {
           <p>Unduh dokumen resmi Wikrama Cup 2026</p>
         </div>
         <div className="lampiran-container">
-          <a href="/surat-undangan-resmi.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
+          <a href="/0766 Undangan Wikrama Cup V 2026.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
             <span className="dl-icon">📄</span> Undangan Resmi
           </a>
-          <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
+          <a href="/Formulir Pendaftaran Atlet - Basket FIX.docx" target="_blank" rel="noopener noreferrer" className="download-button">
             <span className="dl-icon">📝</span> Formulir Pendaftaran Basket
           </a>
-            <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
+            <a href="/Formulir Pendaftaran Atlet - Voli FIX.docx" target="_blank" rel="noopener noreferrer" className="download-button">
             <span className="dl-icon">📝</span> Formulir Pendaftaran Voli
           </a>
-            <a href="/formulir-pendaftaran-atlet.docx" target="_blank" rel="noopener noreferrer" className="download-button">
+            <a href="/Formulir Pendaftaran Atlet - Tenis Meja FIX.docx" target="_blank" rel="noopener noreferrer" className="download-button">
             <span className="dl-icon">📝</span> Formulir Pendaftaran Tenis Meja
           </a>
         </div>

@@ -24,6 +24,10 @@ const competitionDetailsData = {
       putra: "12 tim",
       putri: "12 tim",
       total: "24 tim",
+      details: [
+        { label: "Putra", count: 12 },
+        { label: "Putri", count: 12 },
+      ],
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.500.000,00" },
@@ -157,7 +161,7 @@ const competitionDetailsData = {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Basket FIX.docx" },
     ],
     kontak: [
@@ -181,6 +185,10 @@ const competitionDetailsData = {
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
+    },
+    kuota: {
+      total: "20 peserta",
+      details: [{ label: "Peserta", count: 20 }],
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 750.000,00" },
@@ -220,7 +228,7 @@ const competitionDetailsData = {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
@@ -244,6 +252,10 @@ const competitionDetailsData = {
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
+    },
+    kuota: {
+      total: "20 tim",
+      details: [{ label: "Tim", count: 20 }],
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
@@ -281,7 +293,7 @@ const competitionDetailsData = {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
@@ -305,6 +317,13 @@ const competitionDetailsData = {
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
+    },
+    kuota: {
+      total: "32 peserta",
+      details: [
+        { label: "Putra", count: 16 },
+        { label: "Putri", count: 16 },
+      ],
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 750.000,00" },
@@ -334,7 +353,7 @@ const competitionDetailsData = {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Surat Rekomendasi", url: "/Rekomendasi-Turnamen-Tenis-Meja.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Tenis Meja FIX.docx" },
     ],
@@ -358,6 +377,10 @@ const competitionDetailsData = {
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
+    },
+    kuota: {
+      total: "12 tim",
+      details: [{ label: "Putra", count: 12 }],
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Uang pembinaan Rp 1.000.000,00 dan sertifikat" },
@@ -411,7 +434,7 @@ const competitionDetailsData = {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Voli FIX.docx" },
     ],
     kontak: [
@@ -466,7 +489,7 @@ function getDefaultDetails(competition) {
       },
     ],
     lampiran: [
-      { title: "Surat Undangan Resmi (SMP)", url: "/surat-undangan-resmi.pdf" },
+      { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
@@ -533,19 +556,25 @@ function CompetitionDetail() {
                 <p><strong>a.n:</strong> {details.biayaPendaftaran.atasNama}</p>
                 <p><strong>No. Rek:</strong> <code className="rek-code">{details.biayaPendaftaran.rekening}</code></p>
               </div>
+              {details.kuota && (
+                <div className="quota-section">
+                  <p className="quota-title">
+                    <strong>Kuota Peserta:</strong> {details.kuota.total}
+                  </p>
+                  <div className="quota-grid">
+                    {details.kuota.details.map((item) => (
+                      <div className="quota-box" key={item.label}>
+                        <div className="quota-number">{item.count}</div>
+                        <div className="quota-info">
+                          <span>Kuota</span>
+                          <strong>{item.label}</strong>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-
-            {details.kuota && (
-              <div className="highlight-card">
-                <div className="card-icon">👥</div>
-                <h3>Kuota Peserta</h3>
-                <ul>
-                  <li><strong>Putra:</strong> {details.kuota.putra}</li>
-                  <li><strong>Putri:</strong> {details.kuota.putri}</li>
-                  <li><strong>Total:</strong> {details.kuota.total}</li>
-                </ul>
-              </div>
-            )}
 
             <div className="highlight-card">
               <div className="card-icon">🏆</div>
@@ -759,6 +788,70 @@ function CompetitionDetail() {
         .bank-info p {
           margin: 4px 0;
           font-size: 0.95rem;
+        }
+
+        .quota-section {
+          margin-top: 18px;
+        }
+
+        .quota-title {
+          margin: 0 0 12px;
+          font-size: 0.95rem;
+          line-height: 1.35;
+        }
+
+        .quota-title strong {
+          color: #f8bb28;
+        }
+
+        .quota-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
+
+        .quota-box {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          min-width: 0;
+          min-height: 48px;
+          padding: 7px 8px;
+          background: rgba(6, 14, 36, 0.75);
+          border: 1px solid rgba(248, 187, 40, 0.18);
+          border-radius: 8px;
+          box-sizing: border-box;
+        }
+
+        .quota-number {
+          width: 27px;
+          height: 27px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #f8bb28;
+          color: #223165;
+          border-radius: 6px;
+          font-size: 0.82rem;
+          font-weight: 900;
+        }
+
+        .quota-info {
+          display: flex;
+          flex-direction: column;
+          line-height: 1;
+        }
+
+        .quota-info span {
+          color: rgba(255, 255, 255, 0.55);
+          font-size: 0.55rem;
+          margin-bottom: 3px;
+        }
+
+        .quota-info strong {
+          color: #ffffff;
+          font-size: 0.7rem;
         }
 
         .rek-code {
