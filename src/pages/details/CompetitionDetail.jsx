@@ -268,7 +268,7 @@ const competitionDetailsData = {
         title: "PERSYARATAN TIM",
         items: [
           "Setiap tim terdiri dari 3 orang siswa/i aktif dari sekolah yang sama.",
-          "Membayar biaya pendaftaran sebesar Rp 300.000,- per tim.",
+          "Membayar biaya pendaftaran sebesar Rp 200.000,- per tim.",
           "Menyerahkan surat rekomendasi resmi dari sekolah asal.",
           "Melampirkan fotokopi Kartu Pelajar masing-masing anggota tim.",
         ],
