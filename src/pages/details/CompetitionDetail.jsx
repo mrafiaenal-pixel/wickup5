@@ -440,9 +440,9 @@ const competitionDetailsData = {
       ],
     },
     penghargaan: [
-      { juara: "Juara I", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp600.000" },
-      { juara: "Juara II", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp400.000 " },
-      { juara: "Juara III Bersama", hadiah: "Trophy, Piagam dan Uang pembinaan Rp200.000 " },
+      { juara: "Juara I", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp750.000" },
+      { juara: "Juara II", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp500.000 " },
+      { juara: "Juara III Bersama", hadiah: "Trophy, Piagam dan Uang pembinaan Rp250.000 " },
     ],
     sections: [
       {
