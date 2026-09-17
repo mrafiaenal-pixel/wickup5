@@ -487,7 +487,7 @@ const competitionDetailsData = {
         code: "E",
         title: "PERSYARATAN UMUM",
         items: [
-          "Sudah membayar uang pendaftaran sebesar Rp50.000 per pemain.",
+          "Sudah membayar uang pendaftaran sebesar Rp75.000 per pemain.",
           "Pada saat Technical Meeting, setiap peserta harus sudah melengkapi persyaratan kejuaraan Wikrama Fest.",
           "Mengisi formulir pendaftaran.",
           "Surat rekomendasi dari sekolah masing-masing, bertanda tangan kepala sekolah dan berstempel sekolah asli, di-upload saat pendaftaran.",
