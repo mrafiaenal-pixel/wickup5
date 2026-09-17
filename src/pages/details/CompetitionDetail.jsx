@@ -427,22 +427,22 @@ const competitionDetailsData = {
       tempat: "Aula Balaikrida SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
-      nominal: "Rp. 50.000,00 / pemain",
+      nominal: "Rp. 75.000,00 / pemain",
       bank: "Bank BJB",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
     kuota: {
-      total: "Maksimal 4 peserta per sekolah",
+      total: "Maksimal 2 peserta persekolah perkategori",
       details: [
         { label: "Tunggal putra", count: 2 },
         { label: "Tunggal putri", count: 2 },
       ],
     },
     penghargaan: [
-      { juara: "Juara I", hadiah: "Uang pembinaan Rp600.000 dan sertifikat" },
-      { juara: "Juara II", hadiah: "Uang pembinaan Rp400.000 dan sertifikat" },
-      { juara: "Juara III Bersama", hadiah: "Uang pembinaan Rp200.000 dan sertifikat" },
+      { juara: "Juara I", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp600.000" },
+      { juara: "Juara II", hadiah: "Trophy, Piagam dan Uang Pembinaan Rp400.000 " },
+      { juara: "Juara III Bersama", hadiah: "Trophy, Piagam dan Uang pembinaan Rp200.000 " },
     ],
     sections: [
       {
@@ -459,7 +459,7 @@ const competitionDetailsData = {
         code: "B",
         title: "WAKTU DAN TEMPAT",
         items: [
-          "Pendaftaran: 13 November - 1 Oktober 2026.",
+          "Pendaftaran: 13 September - 1 Oktober 2026.",
           "Technical Meeting: 1 Oktober 2026.",
           "Pelaksanaan: 3, 4 Oktober 2026.",
           "Tempat: Aula Balaikrida SMK Wikrama Bogor.",
@@ -469,7 +469,7 @@ const competitionDetailsData = {
         code: "C",
         title: "BIAYA PENDAFTARAN",
         items: [
-          "Biaya pendaftaran sebesar Rp50.000,00 per pemain.",
+          "Biaya pendaftaran sebesar Rp75.000,00 per pemain.",
           "Pembayaran melalui Bank BJB.",
           "Atas nama Mohamad Rizal.",
           "Nomor rekening: 0149257144100.",
@@ -515,7 +515,7 @@ const competitionDetailsData = {
           "Peserta wajib menggunakan bet tenis meja dengan standar pertandingan ITTF.",
           "Ketebalan dan jenis karet bet mengikuti standar yang berlaku dalam olahraga tenis meja dan tidak menggunakan bintik proses.",
           "Panitia dan wasit berhak memeriksa bet peserta apabila diperlukan.",
-          "Meja pertandingan menggunakan Nexy NEXXUS 18.",
+          "Meja pertandingan menggunakan NEXSIST 18.",
           "Bola pertandingan menggunakan DHS DJ40+.",
           "Pertandingan menggunakan sistem pool pada babak penyisihan.",
           "Peserta dalam setiap pool akan bertanding melawan seluruh peserta dalam pool tersebut.",
@@ -534,7 +534,7 @@ const competitionDetailsData = {
       },
       {
         code: "H",
-        title: "WASIT DAN KOORDINASI WASIT",
+        title: "WASIT DAN KOORDINATOR PERTANDINGAN",
         items: [
           "Pertandingan dipimpin oleh wasit yang telah ditentukan oleh panitia (PENGCAB PTMSI KOTA BOGOR).",
           "Keputusan wasit selama pertandingan bersifat mengikat.",
