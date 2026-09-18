@@ -432,7 +432,7 @@ const competitionDetailsData = {
     },
     kuota: {
       total: "Kuota Peserta: Maksimal 32 peserta",
-      total: "Maks. 2 peserta putra & 2 peserta putri per sekolah",
+      total: "Maks. 2 peserta putra & 2 peserta putri per sekolah, Kuota Maksimal 32 Peserta",
       details: [
         { label: "Tunggal putra", count: 2 },
         { label: "Tunggal putri", count: 2 },
