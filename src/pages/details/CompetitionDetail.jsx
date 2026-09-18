@@ -236,7 +236,6 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
-      { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
     ],
     kontak: [
       { nama: "Shofia (PJ Menyanyi Solo)", wa: "0856-9240-6601", link: "https://wa.me/6285692406601" },
@@ -405,7 +404,6 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
-      { title: "Unduh Formulir Pendaftaran", url: "/formulir-pendaftaran-atlet.docx" },
       { title: "Tata Tertib Babak Penyisihan LCC", url: "/TATA TERTIB BABAK PENYISIHAN LCC-M.pdf" },
       { title: "Tata Tertib Babak Semifinal LCC", url: "/TATA TERTIB BABAK SEMIFINAL LCC-M.pdf" },
       { title: "Tata Tertib Babak Final LCC", url: "/TATA TERTIB BABAK FINAL LCC-M.pdf" },
