@@ -419,7 +419,7 @@ const competitionDetailsData = {
     title: "Regulasi Pertandingan Lomba Tenis Meja Antar SMP Se-Bogor Raya",
     kategori: "Siswa aktif SMP/sederajat wilayah Bogor Raya",
     waktuTempat: {
-      pendaftaran: "13 November - 1 Oktober 2026",
+      pendaftaran: "13 September - 1 Oktober 2026",
       technicalMeeting: "1 Oktober 2026",
       pelaksanaan: "3, 4 Oktober 2026",
       tempat: "Aula Balaikrida SMK Wikrama Bogor",
@@ -431,7 +431,8 @@ const competitionDetailsData = {
       rekening: "0149257144100",
     },
     kuota: {
-      total: "Maksimal 2 peserta persekolah perkategori",
+      total: "Kuota Peserta: Maksimal 32 peserta",
+      total: "Maks. 2 peserta putra & 2 peserta putri per sekolah",
       details: [
         { label: "Tunggal putra", count: 2 },
         { label: "Tunggal putri", count: 2 },
