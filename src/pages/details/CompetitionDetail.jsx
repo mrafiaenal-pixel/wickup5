@@ -16,7 +16,7 @@ const competitionDetailsData = {
     },
     biayaPendaftaran: {
       nominal: "Rp. 600.000,00 / tim",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
@@ -162,7 +162,10 @@ const competitionDetailsData = {
     ],
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
+      { title: "Surat Rekomendasi PERBASI", url: "/SURAT REKOMENDASI ( WIKRAMA CUP 2026 ).pdf" },
+      { title: "Surat Rekomendasi Disdik", url: "/Surat Rekomendasi Disdik.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Basket FIX.docx" },
+      
     ],
     kontak: [
       { nama: "Kayla (PJ Basket)", wa: "0831-7969-2009", link: "https://wa.me/6283179692009" },
@@ -182,7 +185,7 @@ const competitionDetailsData = {
     },
     biayaPendaftaran: {
       nominal: "Rp. 75.000,00 / peserta",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
@@ -255,7 +258,7 @@ const competitionDetailsData = {
     },
     biayaPendaftaran: {
       nominal: "Rp. 200.000,00 / tim",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
@@ -426,7 +429,7 @@ const competitionDetailsData = {
     },
     biayaPendaftaran: {
       nominal: "Rp. 75.000,00 / pemain",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
@@ -469,7 +472,7 @@ const competitionDetailsData = {
         title: "BIAYA PENDAFTARAN",
         items: [
           "Biaya pendaftaran sebesar Rp75.000,00 per pemain.",
-          "Pembayaran melalui Bank BJB.",
+          "Pembayaran melalui Bank BNI.",
           "Atas nama Mohamad Rizal.",
           "Nomor rekening: 0149257144100.",
         ],
@@ -571,7 +574,7 @@ const competitionDetailsData = {
     },
     biayaPendaftaran: {
       nominal: "Rp. 250.000,00 / tim",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
@@ -592,7 +595,7 @@ const competitionDetailsData = {
           "Peserta merupakan siswa aktif tingkat SMP/sederajat di wilayah Bogor Raya (diutamakan kelas 8-9 tahun ajaran 2026-2027).",
           "Satu sekolah maksimal mengirimkan 12 orang pemain pada masing-masing nomor.",
           "Wajib membawa kartu pelajar atau identitas sekolah apabila diperlukan.",
-          "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BJB (a.n. Mohamad Rizal, No. Rek: 0149257144100).",
+          "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BNI (a.n. Mohamad Rizal, No. Rek: 0149257144100).",
           "Mengisi formulir pendaftaran dan melampirkan surat rekomendasi dari sekolah (bertanda tangan kepala sekolah & berstempel asli) serta FC Rapor semester terakhir / Kartu Pelajar yang di-upload saat pendaftaran.",
           "Setiap tim harus sudah melengkapi seluruh persyaratan pada saat Technical Meeting.",
         ],
@@ -656,7 +659,7 @@ function getDefaultDetails(competition) {
     },
     biayaPendaftaran: {
       nominal: "Rp. 300.000,00 / tim (atau individu)",
-      bank: "Bank BJB",
+      bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
       rekening: "0149257144100",
     },
