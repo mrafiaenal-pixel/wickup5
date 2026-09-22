@@ -18,7 +18,7 @@ const competitionDetailsData = {
       nominal: "Rp. 600.000,00 / tim",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     kuota: {
       putra: "12 tim",
@@ -187,7 +187,7 @@ const competitionDetailsData = {
       nominal: "Rp. 75.000,00 / peserta",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     kuota: {
       total: "20 peserta",
@@ -260,7 +260,7 @@ const competitionDetailsData = {
       nominal: "Rp. 200.000,00 / tim",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     kuota: {
       total: "20 tim",
@@ -431,7 +431,7 @@ const competitionDetailsData = {
       nominal: "Rp. 75.000,00 / pemain",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     kuota: {
       total: "Kuota Peserta: Maksimal 32 peserta",
@@ -474,7 +474,7 @@ const competitionDetailsData = {
           "Biaya pendaftaran sebesar Rp75.000,00 per pemain.",
           "Pembayaran melalui Bank BNI.",
           "Atas nama Mohamad Rizal.",
-          "Nomor rekening: 0149257144100.",
+          "Nomor rekening: 448153899.",
         ],
       },
       {
@@ -576,7 +576,7 @@ const competitionDetailsData = {
       nominal: "Rp. 250.000,00 / tim",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     kuota: {
       total: "12 tim",
@@ -595,7 +595,7 @@ const competitionDetailsData = {
           "Peserta merupakan siswa aktif tingkat SMP/sederajat di wilayah Bogor Raya (diutamakan kelas 8-9 tahun ajaran 2026-2027).",
           "Satu sekolah maksimal mengirimkan 12 orang pemain pada masing-masing nomor.",
           "Wajib membawa kartu pelajar atau identitas sekolah apabila diperlukan.",
-          "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BNI (a.n. Mohamad Rizal, No. Rek: 0149257144100).",
+          "Sudah membayar uang pendaftaran sebesar Rp. 250.000/tim ke Bank BNI (a.n. Mohamad Rizal, No. Rek: 448153899).",
           "Mengisi formulir pendaftaran dan melampirkan surat rekomendasi dari sekolah (bertanda tangan kepala sekolah & berstempel asli) serta FC Rapor semester terakhir / Kartu Pelajar yang di-upload saat pendaftaran.",
           "Setiap tim harus sudah melengkapi seluruh persyaratan pada saat Technical Meeting.",
         ],
@@ -661,7 +661,7 @@ function getDefaultDetails(competition) {
       nominal: "Rp. 300.000,00 / tim (atau individu)",
       bank: "Bank BNI",
       atasNama: "Mohamad Rizal",
-      rekening: "0149257144100",
+      rekening: "448153899",
     },
     penghargaan: [
       { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan" },
