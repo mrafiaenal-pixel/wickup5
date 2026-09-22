@@ -179,6 +179,18 @@ function Home() {
           className="hero-decoration-microphone"
         />
 
+        <img
+          src="/volley.png"
+          alt="Volleyball"
+          className="hero-decoration-volleyball"
+        />
+
+        <img
+          src="/tenis.png"
+          alt="Table tennis paddle"
+          className="hero-decoration-tennis"
+        />
+
         <div className="hero-glow-bg" />
 
         <div className="hero-particles">
@@ -581,6 +593,36 @@ function Home() {
             transform:
               translateY(-16px)
               rotate(8deg);
+          }
+        }
+
+        @keyframes floatVolleyball {
+          0%,100% {
+            transform:
+              translateY(0)
+              rotate(8deg)
+              scale(1);
+          }
+
+          50% {
+            transform:
+              translateY(-18px)
+              rotate(13deg)
+              scale(1.03);
+          }
+        }
+
+        @keyframes floatTennis {
+          0%,100% {
+            transform:
+              translateY(0)
+              rotate(-12deg);
+          }
+
+          50% {
+            transform:
+              translateY(-20px)
+              rotate(-6deg);
           }
         }
 
@@ -1017,6 +1059,39 @@ function Home() {
             infinite;
         }
 
+        .hero-decoration-volleyball,
+        .hero-decoration-tennis {
+          position:absolute;
+          width:250px;
+          z-index:2;
+
+          filter:
+            drop-shadow(
+              0 25px 50px
+              rgba(0,0,0,0.6)
+            );
+        }
+
+        .hero-decoration-volleyball {
+          top:8%;
+          left:-20px;
+          animation:
+            floatVolleyball
+            6.2s
+            ease-in-out
+            infinite;
+        }
+
+        .hero-decoration-tennis {
+          right:-35px;
+          bottom:3%;
+          animation:
+            floatTennis
+            5.8s
+            ease-in-out
+            infinite;
+        }
+
         .hero-glow-bg {
           position:absolute;
           top:50%;
@@ -1151,6 +1226,7 @@ function Home() {
           font-size:0.7em;
           vertical-align:super;
           margin-left:6px;
+          display:inline-block;
         }
 
         .hero-subtitle {
@@ -1769,6 +1845,22 @@ function Home() {
           .hero-decoration-microphone {
             width:100px;
             opacity:0.3;
+          }
+
+          .hero-decoration-volleyball,
+          .hero-decoration-tennis {
+            width:120px;
+            opacity:0.3;
+          }
+
+          .hero-decoration-volleyball {
+            top:13%;
+            left:-25px;
+          }
+
+          .hero-decoration-tennis {
+            right:-30px;
+            bottom:8%;
           }
 
           .hero-lightning-tr,
