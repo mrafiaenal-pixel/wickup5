@@ -636,6 +636,7 @@ const competitionDetailsData = {
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Voli FIX.docx" },
+      { title: "Surat Rekomendasi PBVSI", url: "/surat-rekomendasi-volley.pdf" },
     ],
     kontak: [
       { nama: "Widi Rizki Pratama Kahar", wa: "0851-5057-8165", link: "https://wa.me/6285150578165" },
