@@ -165,7 +165,7 @@ const competitionDetailsData = {
     lampiran: [
       { title: "Surat Undangan Resmi (SMP)", url: "/0766 Undangan Wikrama Cup V 2026.pdf" },
       { title: "Surat Rekomendasi PERBASI", url: "/SURAT REKOMENDASI ( WIKRAMA CUP 2026 ).pdf" },
-      { title: "Surat Rekomendasi Disdik", url: "/Surat Rekomendasi Disdik.pdf" },
+      { title: "Surat Rekomendasi Disdik", url: "/surat-rekomendasi-dinas-pendidikan.pdf" },
       { title: "Unduh Formulir Pendaftaran Atlet", url: "/Formulir Pendaftaran Atlet - Basket FIX.docx" },
       
     ],
