@@ -308,41 +308,7 @@ const competitionDetailsData = {
           "Kertas buram dan alat tulis disediakan oleh panitia.",
         ],
       },
-      {
-        code: "D",
-        title: "TATA TERTIB & TEKNIS BABAK PENYISIHAN (LURING)",
-        items: [
-          "Pelaksanaan & Kehadiran: Babak Penyisihan dilaksanakan secara luring (offline) langsung di ruang perlombaan yang ditentukan oleh panitia. Peserta wajib hadir dan melakukan registrasi ulang 30 menit sebelum pengerjaan dimulai.",
-          "Pakaian & Sikap: Peserta wajib mengenakan seragam batik sekolah / almamater resmi. Dilarang bekerja sama atau berdiskusi dengan siapa pun selain rekan satu tim.",
-          "Peralatan & Ruangan: Peserta dilarang membawa HP, kalkulator, jam tangan, atau perangkat elektronik lainnya ke dalam ruang ujian. Perlengkapan tulis dan kertas buram disediakan oleh panitia.",
-          "Sistem Pengerjaan & Waktu: Jumlah soal 40 pilihan ganda dengan durasi pengerjaan 120 menit.",
-          "Sistem Penilaian Penyisihan: Jawaban Benar +4 Poin (menjawab soal dengan benar); Jawaban Salah -2 Poin (pengurangan poin untuk jawaban salah); Jawaban Kosong -1 Poin (soal tidak dijawab).",
-          "Kualifikasi: 12 tim dengan skor tertinggi berhak lolos ke Babak Semifinal.",
-        ],
-      },
-      {
-        code: "E",
-        title: "TATA TERTIB & TEKNIS BABAK SEMIFINAL (LURING)",
-        items: [
-          "Pembagian Kelompok: 12 tim lolos dibagi menjadi 3 babak semifinal (SF 1: Peringkat 1, 4, 7, 10; SF 2: Peringkat 2, 5, 8, 11; SF 3: Peringkat 3, 6, 9, 12).",
-          "Posisi Duduk & Amplop: Urutan tempat duduk dan amplop ditentukan berdasarkan hasil spinner.",
-          "Teknis Pengerjaan: Soal ditampilkan pada layar proyektor. Waktu berhitung dan menekan bel adalah 2 menit setelah juri selesai membaca soal.",
-          "Sesi 1 (Soal Wajib): Setiap tim memilih amplop berisi 3 soal wajib. Wajib menekan bel sebelum menjawab oleh Juru Bicara. Penilaian: Benar (+100), Salah (-50), Kosong (0), Jawaban kurang sempurna materi geometri (+50).",
-          "Sesi 2 (Soal Rebutan): Terdiri dari 10 soal. Semua anggota tim boleh menjawab setelah menekan bel dan dipersilakan juri. Penilaian: Benar (+100), Salah (-50), Tidak terjawab (0).",
-          "Kualifikasi: 3 tim dengan skor tertinggi berhak lolos ke Babak Final.",
-        ],
-      },
-      {
-        code: "F",
-        title: "TATA TERTIB & TEKNIS BABAK FINAL (LURING)",
-        items: [
-          "Peserta: Diikuti oleh 3 tim terbaik. Posisi duduk dan urutan ditentukan via spinner.",
-          "Sesi 1 (Soal Wajib Final): 5 soal wajib per tim. Hanya Juru Bicara yang boleh menjawab. Penilaian: Benar (+100), Salah (-50), Tidak terjawab (-50), Geometri kurang sempurna (+50).",
-          "Sesi 2 (Soal Lemparan Final): 5 soal lemparan. Jika tidak terjawab/kurang sempurna, dilempar ke tim berikutnya tanpa waktu tambahan berhitung (jeda 5 detik). Penilaian: Benar (+100), Salah (-50), Seluruh tim tidak bisa (0).",
-          "Sesi 3 (Soal Rebutan Final): 10 soal. Semua anggota boleh menjawab setelah ditunjuk juri. Penilaian: Benar (+100), Salah (-50), Tidak terjawab (0).",
-        ],
-      },
-      {
+     {
         code: "G",
         title: "TATA TERTIB PENONTON",
         items: [
