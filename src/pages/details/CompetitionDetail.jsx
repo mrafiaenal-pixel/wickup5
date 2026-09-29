@@ -9,8 +9,8 @@ const competitionDetailsData = {
     title: "Regulasi Turnamen Basket Antar SMP Se-Bogor Raya",
     kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
-      pendaftaran: "13 September – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026 (Online)(13.00 s.d 14.30 WIB)",
+      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      technicalMeeting: "7 Oktober 2026 (Online)(13.00 s.d 14.30 WIB)",
       pelaksanaan: "10, 11, 17 dan 18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
@@ -34,7 +34,7 @@ const competitionDetailsData = {
       { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
       { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 600.000,00" },
       { juara: "MVP", hadiah: "Piala dan Piagam" },
-      { juara: "Beasiswa", hadiah: "Beasiswa pendidikan masuk Wikrama bagi 3 atlet yang terpilih" },
+      { juara: "Beasiswa", hadiah: "Beasiswa pendidikan masuk Wikrama bagi 3 atlet putra dan 3 atlet putri yang terpilih" },
     ],
     sections: [
       {
@@ -180,8 +180,8 @@ const competitionDetailsData = {
     title: "Regulasi Lomba menyanyi solo Antar SMP Se-Bogor Raya",
     kategori: "Siswa / Siswi SMP sederajat",
     waktuTempat: {
-      pendaftaran: "13 september – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
+      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      technicalMeeting: "7 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
       pelaksanaan: "18 Oktober 2026 (08.00 WIB - selesai)",
       tempat: "Gedung Utama SMK Wikrama Bogor",
     },
@@ -253,9 +253,9 @@ const competitionDetailsData = {
     title: "Regulasi Lengkap Lomba Cerdas Cermat",
     kategori: "Siswa aktif SMP sederajat (3 Orang / Tim)",
     waktuTempat: {
-      pendaftaran: "13 September – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
-      pelaksanaan: "17-18 Oktober 2026 (08.00 WIB - selesai)",
+      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      technicalMeeting: "7 Oktober 2026 (Online)(13.30 s.d 15.30 WIB)",
+      pelaksanaan: "17 Oktober 2026 (08.00 WIB - selesai)",
       tempat: "Ruang Multimedia SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
@@ -397,9 +397,9 @@ const competitionDetailsData = {
     title: "Regulasi Pertandingan Lomba Tenis Meja Antar SMP Se-Bogor Raya",
     kategori: "Siswa aktif SMP/sederajat wilayah Bogor Raya",
     waktuTempat: {
-      pendaftaran: "13 September - 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026",
-      pelaksanaan: "3, 4 Oktober 2026",
+      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      technicalMeeting: "7 Oktober 2026",
+      pelaksanaan: "24, 25 Oktober 2026",
       tempat: "Aula Balaikrida SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
@@ -436,9 +436,9 @@ const competitionDetailsData = {
         code: "B",
         title: "WAKTU DAN TEMPAT",
         items: [
-          "Pendaftaran: 13 September - 1 Oktober 2026.",
-          "Technical Meeting: 1 Oktober 2026.",
-          "Pelaksanaan: 3, 4 Oktober 2026.",
+          "Penutupan pendaftaran: 7 Oktober 2026.",
+          "Technical Meeting: 7 Oktober 2026.",
+          "Pelaksanaan: 24, 25 Oktober 2026.",
           "Tempat: Aula Balaikrida SMK Wikrama Bogor.",
         ],
       },
@@ -542,9 +542,9 @@ const competitionDetailsData = {
     title: "Regulasi Turnamen Voli Antar SMP Se-Bogor Raya",
     kategori: "Murid putra SMP sederajat",
     waktuTempat: {
-      pendaftaran: "13 September – 1 Oktober 2026",
-      technicalMeeting: "1 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
-      pelaksanaan: "3, 4 Oktober 2026",
+      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      technicalMeeting: "7 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
+      pelaksanaan: "24, 25 Oktober 2026",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
     biayaPendaftaran: {
