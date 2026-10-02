@@ -75,6 +75,9 @@ function Kompetisi() {
             <a href="/Formulir Pendaftaran Atlet - Tenis Meja FIX.docx" target="_blank" rel="noopener noreferrer" className="download-button">
             <span className="dl-icon">📝</span> Formulir Pendaftaran Tenis Meja
           </a>
+          <a href="/surat-rekomendasi-dinas-pendidikan.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
+            <span className="dl-icon">📄</span> Surat Rekomendasi Disdik
+          </a>
         </div>
       </div>
 

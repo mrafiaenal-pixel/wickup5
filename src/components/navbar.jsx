@@ -19,7 +19,7 @@ function Navbar() {
 
           {/* Logo */}
           <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src="/logo-wikcup.png" alt="Wikrama Cup Logo" className="navbar-logo-img" />
+            <img src="/wikcup-logo.png" alt="Wikrama Cup Logo" className="navbar-logo-img" />
             <span className="navbar-logo-text">WIKRAMA CUP 5</span>
           </NavLink>
 
@@ -104,7 +104,7 @@ function Navbar() {
         }
 
         .navbar-logo-img {
-          height: 44px;
+          height: 81px;
           width: auto;
           transition: transform 0.3s ease;
         }

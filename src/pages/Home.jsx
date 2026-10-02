@@ -235,7 +235,7 @@ function Home() {
         >
 
           <img
-            src="/logo-wikcup.png"
+            src="/wikcup-logo.png"
             alt="Wikrama Cup Logo"
             className="hero-logo"
           />
@@ -1165,7 +1165,7 @@ function Home() {
         }
 
         .hero-logo {
-          width:130px;
+          width:240px;
           margin-bottom:12px;
 
           filter:
@@ -1916,7 +1916,7 @@ function Home() {
           }
 
           .hero-logo {
-            width:100px;
+            width:250px;
           }
 
           .comp-pills {

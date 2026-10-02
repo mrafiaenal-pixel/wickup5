@@ -10,7 +10,7 @@ function ComingSoon() {
         <div className="coming-soon-grid" />
 
         <div className="coming-soon-content">
-          <img src="/logo-wikcup.png" alt="Wikrama Cup Logo" className="coming-soon-logo" />
+          <img src="/wikcup-logo.png" alt="Wikrama Cup Logo" className="coming-soon-logo" />
           <div className="cs-badge"><span className="cs-dot" />Sedang Diproses</div>
           <h1 className="coming-soon-title">Segera Hadir</h1>
           <p className="coming-soon-text">
@@ -43,7 +43,7 @@ function ComingSoon() {
         .ring-a{width:500px;height:500px;animation:csRing 20s linear infinite}
         .ring-b{width:700px;height:700px;border-color:rgba(245,147,28,0.06);animation:csRingRev 30s linear infinite}
         .coming-soon-content{position:relative;z-index:2;background:rgba(255,255,255,0.03);border:1px solid rgba(248,187,40,0.2);border-radius:24px;padding:60px 48px;max-width:580px;backdrop-filter:blur(20px);box-shadow:0 25px 60px rgba(0,0,0,0.5);animation:fadeUp 0.8s ease forwards}
-        .coming-soon-logo{width:110px;margin-bottom:24px;animation:logoPulse 3s ease-in-out infinite}
+        .coming-soon-logo{width:210px;margin-bottom:24px;animation:logoPulse 3s ease-in-out infinite}
         .cs-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(248,187,40,0.1);border:1px solid rgba(248,187,40,0.3);color:#f8bb28;padding:5px 16px;border-radius:50px;font-size:0.8rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:20px}
         .cs-dot{width:7px;height:7px;border-radius:50%;background:#f8bb28;animation:dotPulse 1.5s ease infinite}
         .coming-soon-title{font-size:2.8rem;font-weight:900;color:#f8bb28;text-shadow:0 0 20px rgba(248,187,40,0.4);margin:0 0 16px}

@@ -9,7 +9,7 @@ const competitionDetailsData = {
     title: "Regulasi Turnamen Basket Antar SMP Se-Bogor Raya",
     kategori: "Murid putra/putri SMP sederajat",
     waktuTempat: {
-      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
+      pendaftaran: "Penutupan pendaftaran: 6 Oktober 2026",
       technicalMeeting: "7 Oktober 2026 (Online)(13.00 s.d 14.30 WIB)",
       pelaksanaan: "10, 11, 17 dan 18 Oktober 2026 (07.30 - selesai)",
       tempat: "Lapangan SMK Wikrama Bogor",
@@ -363,8 +363,8 @@ const competitionDetailsData = {
     title: "Regulasi Pertandingan Lomba Tenis Meja Antar SMP Se-Bogor Raya",
     kategori: "Siswa aktif SMP/sederajat wilayah Bogor Raya",
     waktuTempat: {
-      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
-      technicalMeeting: "7 Oktober 2026",
+      pendaftaran: "Penutupan pendaftaran: 21 Oktober 2026",
+      technicalMeeting: "21 Oktober 2026",
       pelaksanaan: "24, 25 Oktober 2026",
       tempat: "Aula Balaikrida SMK Wikrama Bogor",
     },
@@ -508,8 +508,8 @@ const competitionDetailsData = {
     title: "Regulasi Turnamen Voli Antar SMP Se-Bogor Raya",
     kategori: "Murid putra SMP sederajat",
     waktuTempat: {
-      pendaftaran: "Penutupan pendaftaran: 7 Oktober 2026",
-      technicalMeeting: "7 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
+      pendaftaran: "Penutupan pendaftaran: 21 Oktober 2026",
+      technicalMeeting: "21 Oktober 2026 (Online) (13.30 s.d 15.30 WIB)",
       pelaksanaan: "24, 25 Oktober 2026",
       tempat: "Lapangan SMK Wikrama Bogor",
     },
