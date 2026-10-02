@@ -30,9 +30,9 @@ const competitionDetailsData = {
       ],
     },
     penghargaan: [
-      { juara: "Juara 1", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.500.000,00" },
-      { juara: "Juara 2", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
-      { juara: "Juara 3", hadiah: "Piala, Piagam dan Uang Pembinaan senilai Rp 600.000,00" },
+      { juara: "Juara 1", hadiah: "Piala Bergilir, Piagam dan Uang Pembinaan senilai Rp 1.500.000,00" },
+      { juara: "Juara 2", hadiah: "Piala Tetap, Piagam dan Uang Pembinaan senilai Rp 1.000.000,00" },
+      { juara: "Juara 3", hadiah: "Piala Tetap, Piagam dan Uang Pembinaan senilai Rp 600.000,00" },
       { juara: "MVP", hadiah: "Piala dan Piagam" },
       { juara: "Beasiswa", hadiah: "Beasiswa pendidikan masuk Wikrama bagi 3 atlet putra dan 3 atlet putri yang terpilih" },
     ],
